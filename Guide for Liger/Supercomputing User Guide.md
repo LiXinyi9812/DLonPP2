@@ -229,6 +229,7 @@ Convert to a SIF image:
 ```
 cd $SCRATCHDIR
 module load singularity
+export SINGULARITY_CACHEDIR=$SCRATCHDIR/singularity/cache
 singularity build [imagename].sif docker-archive://[imagename].tar.gz
 ```
 After a few moments, your `.sif` image is created. You can now use it, to do so submit a job with slurm and use `singularity exec --nv [imagename].sif <your command>`.
