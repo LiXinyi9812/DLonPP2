@@ -1,0 +1,2256 @@
+beautiful (number of comparison): 500
+boring (number of comparison): 500
+depressing (number of comparison): 500
+lively (number of comparison): 500
+safe (number of comparison): 500
+wealthy (number of comparison): 500
+epoch= 1 iteration= 1 / 12 loss 0 = tensor(0.8418, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 1 iteration= 1 / 12 loss 1 = tensor(0.6734, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 1 iteration= 1 / 12 loss 2 = tensor(0.8857, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 1 iteration= 1 / 12 loss 3 = tensor(0.7234, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 1 iteration= 1 / 12 loss 4 = tensor(0.9120, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 1 iteration= 1 / 12 loss 5 = tensor(1.1348, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 1 iteration= 2 / 12 loss 0 = tensor(19.7978, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 1 iteration= 2 / 12 loss 1 = tensor(9.0636, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 1 iteration= 2 / 12 loss 2 = tensor(9.6503, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 1 iteration= 2 / 12 loss 3 = tensor(10.0159, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 1 iteration= 2 / 12 loss 4 = tensor(6.9364, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 1 iteration= 2 / 12 loss 5 = tensor(15.0075, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 1 iteration= 3 / 12 loss 0 = tensor(2.5684, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 1 iteration= 3 / 12 loss 1 = tensor(3.0210, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 1 iteration= 3 / 12 loss 2 = tensor(2.1597, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 1 iteration= 3 / 12 loss 3 = tensor(4.6551, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 1 iteration= 3 / 12 loss 4 = tensor(6.5038, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 1 iteration= 3 / 12 loss 5 = tensor(7.5112, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 1 iteration= 4 / 12 loss 0 = tensor(5.7541, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 1 iteration= 4 / 12 loss 1 = tensor(5.6889, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 1 iteration= 4 / 12 loss 2 = tensor(5.4512, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 1 iteration= 4 / 12 loss 3 = tensor(2.1892, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 1 iteration= 4 / 12 loss 4 = tensor(1.9302, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 1 iteration= 4 / 12 loss 5 = tensor(1.0142, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 1 iteration= 5 / 12 loss 0 = tensor(10.1061, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 1 iteration= 5 / 12 loss 1 = tensor(5.3333, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 1 iteration= 5 / 12 loss 2 = tensor(6.5464, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 1 iteration= 5 / 12 loss 3 = tensor(5.5984, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 1 iteration= 5 / 12 loss 4 = tensor(5.0610, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 1 iteration= 5 / 12 loss 5 = tensor(3.8447, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 1 iteration= 6 / 12 loss 0 = tensor(11.8915, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 1 iteration= 6 / 12 loss 1 = tensor(2.1649, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 1 iteration= 6 / 12 loss 2 = tensor(2.8979, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 1 iteration= 6 / 12 loss 3 = tensor(4.4291, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 1 iteration= 6 / 12 loss 4 = tensor(0.8057, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 1 iteration= 6 / 12 loss 5 = tensor(1.8125, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 1 iteration= 7 / 12 loss 0 = tensor(18.3517, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 1 iteration= 7 / 12 loss 1 = tensor(0.6739, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 1 iteration= 7 / 12 loss 2 = tensor(1.2804, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 1 iteration= 7 / 12 loss 3 = tensor(1.8797, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 1 iteration= 7 / 12 loss 4 = tensor(3.0474, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 1 iteration= 7 / 12 loss 5 = tensor(2.6975, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 1 iteration= 8 / 12 loss 0 = tensor(7.7114, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 1 iteration= 8 / 12 loss 1 = tensor(1.3842, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 1 iteration= 8 / 12 loss 2 = tensor(9.5509, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 1 iteration= 8 / 12 loss 3 = tensor(3.8624, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 1 iteration= 8 / 12 loss 4 = tensor(1.6242, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 1 iteration= 8 / 12 loss 5 = tensor(2.8465, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 1 iteration= 9 / 12 loss 0 = tensor(2.5948, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 1 iteration= 9 / 12 loss 1 = tensor(0.8942, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 1 iteration= 9 / 12 loss 2 = tensor(3.8561, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 1 iteration= 9 / 12 loss 3 = tensor(4.6537, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 1 iteration= 9 / 12 loss 4 = tensor(1.1160, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 1 iteration= 9 / 12 loss 5 = tensor(2.1644, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 1 iteration= 10 / 12 loss 0 = tensor(2.6132, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 1 iteration= 10 / 12 loss 1 = tensor(2.0263, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 1 iteration= 10 / 12 loss 2 = tensor(0.7003, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 1 iteration= 10 / 12 loss 3 = tensor(0.8269, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 1 iteration= 10 / 12 loss 4 = tensor(0.8033, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 1 iteration= 10 / 12 loss 5 = tensor(1.4132, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 1 iteration= 11 / 12 loss 0 = tensor(7.5621, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 1 iteration= 11 / 12 loss 1 = tensor(2.0360, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 1 iteration= 11 / 12 loss 2 = tensor(2.4153, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 1 iteration= 11 / 12 loss 3 = tensor(0.7783, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 1 iteration= 11 / 12 loss 4 = tensor(1.2707, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 1 iteration= 11 / 12 loss 5 = tensor(0.8221, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 1 iteration= 12 / 12 loss 0 = tensor(6.4513, device='cuda:0', grad_fn=<AddBackward0>)
+**********test on data_validation of attribute 0  start ************
+accuracy =  0.4166666666666667
+change of accuracy on data_train 0:
+0.5243055555555556
+change of accuracy on data_validation 0:
+0.4166666666666667
+**********test on data_validation of attribute 0  finished ************
+
+
+epoch= 1 iteration= 12 / 12 loss 1 = tensor(0.8275, device='cuda:0', grad_fn=<AddBackward0>)
+**********test on data_validation of attribute 1  start ************
+accuracy =  0.625
+change of accuracy on data_train 1:
+0.5034722222222222
+change of accuracy on data_validation 1:
+0.625
+**********test on data_validation of attribute 1  finished ************
+
+
+epoch= 1 iteration= 12 / 12 loss 2 = tensor(1.9826, device='cuda:0', grad_fn=<AddBackward0>)
+**********test on data_validation of attribute 2  start ************
+accuracy =  0.625
+change of accuracy on data_train 2:
+0.46874999999999994
+change of accuracy on data_validation 2:
+0.625
+**********test on data_validation of attribute 2  finished ************
+
+
+epoch= 1 iteration= 12 / 12 loss 3 = tensor(2.1467, device='cuda:0', grad_fn=<AddBackward0>)
+**********test on data_validation of attribute 3  start ************
+accuracy =  0.5833333333333334
+change of accuracy on data_train 3:
+0.513888888888889
+change of accuracy on data_validation 3:
+0.5833333333333334
+**********test on data_validation of attribute 3  finished ************
+
+
+epoch= 1 iteration= 12 / 12 loss 4 = tensor(1.1558, device='cuda:0', grad_fn=<AddBackward0>)
+**********test on data_validation of attribute 4  start ************
+accuracy =  0.4166666666666667
+change of accuracy on data_train 4:
+0.4930555555555556
+change of accuracy on data_validation 4:
+0.4166666666666667
+**********test on data_validation of attribute 4  finished ************
+
+
+epoch= 1 iteration= 12 / 12 loss 5 = tensor(1.5430, device='cuda:0', grad_fn=<AddBackward0>)
+**********test on data_validation of attribute 5  start ************
+accuracy =  0.5
+change of accuracy on data_train 5:
+0.4930555555555555
+change of accuracy on data_validation 5:
+0.5
+**********test on data_validation of attribute 5  finished ************
+
+
+
+
+epoch 0finished, changes of losses as following: 
+change of loss0 every epoch:
+tensor(8.0203, device='cuda:0', grad_fn=<DivBackward0>)
+change of loss1 every epoch:
+tensor(2.8156, device='cuda:0', grad_fn=<DivBackward0>)
+change of loss2 every epoch:
+tensor(3.9481, device='cuda:0', grad_fn=<DivBackward0>)
+change of loss3 every epoch:
+tensor(3.4799, device='cuda:0', grad_fn=<DivBackward0>)
+change of loss4 every epoch:
+tensor(2.5972, device='cuda:0', grad_fn=<DivBackward0>)
+change of loss5 every epoch:
+tensor(3.4843, device='cuda:0', grad_fn=<DivBackward0>)
+epoch= 2 iteration= 1 / 12 loss 0 = tensor(6.8491, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 2 iteration= 1 / 12 loss 1 = tensor(0.6852, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 2 iteration= 1 / 12 loss 2 = tensor(0.6895, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 2 iteration= 1 / 12 loss 3 = tensor(1.6368, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 2 iteration= 1 / 12 loss 4 = tensor(2.0857, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 2 iteration= 1 / 12 loss 5 = tensor(0.7837, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 2 iteration= 2 / 12 loss 0 = tensor(4.4107, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 2 iteration= 2 / 12 loss 1 = tensor(0.7252, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 2 iteration= 2 / 12 loss 2 = tensor(1.2005, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 2 iteration= 2 / 12 loss 3 = tensor(0.9117, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 2 iteration= 2 / 12 loss 4 = tensor(1.0394, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 2 iteration= 2 / 12 loss 5 = tensor(0.6684, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 2 iteration= 3 / 12 loss 0 = tensor(6.7144, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 2 iteration= 3 / 12 loss 1 = tensor(1.0695, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 2 iteration= 3 / 12 loss 2 = tensor(1.7828, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 2 iteration= 3 / 12 loss 3 = tensor(0.8241, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 2 iteration= 3 / 12 loss 4 = tensor(0.9509, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 2 iteration= 3 / 12 loss 5 = tensor(1.3049, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 2 iteration= 4 / 12 loss 0 = tensor(6.7889, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 2 iteration= 4 / 12 loss 1 = tensor(0.9016, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 2 iteration= 4 / 12 loss 2 = tensor(0.9890, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 2 iteration= 4 / 12 loss 3 = tensor(1.9154, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 2 iteration= 4 / 12 loss 4 = tensor(0.7928, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 2 iteration= 4 / 12 loss 5 = tensor(3.2171, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 2 iteration= 5 / 12 loss 0 = tensor(7.8773, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 2 iteration= 5 / 12 loss 1 = tensor(0.9750, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 2 iteration= 5 / 12 loss 2 = tensor(0.7136, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 2 iteration= 5 / 12 loss 3 = tensor(1.7479, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 2 iteration= 5 / 12 loss 4 = tensor(2.7808, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 2 iteration= 5 / 12 loss 5 = tensor(0.8787, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 2 iteration= 6 / 12 loss 0 = tensor(2.7922, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 2 iteration= 6 / 12 loss 1 = tensor(0.8747, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 2 iteration= 6 / 12 loss 2 = tensor(1.3714, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 2 iteration= 6 / 12 loss 3 = tensor(0.7760, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 2 iteration= 6 / 12 loss 4 = tensor(0.6955, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 2 iteration= 6 / 12 loss 5 = tensor(1.7878, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 2 iteration= 7 / 12 loss 0 = tensor(0.7081, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 2 iteration= 7 / 12 loss 1 = tensor(0.7310, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 2 iteration= 7 / 12 loss 2 = tensor(0.9905, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 2 iteration= 7 / 12 loss 3 = tensor(0.7307, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 2 iteration= 7 / 12 loss 4 = tensor(0.8136, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 2 iteration= 7 / 12 loss 5 = tensor(1.9512, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 2 iteration= 8 / 12 loss 0 = tensor(1.8052, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 2 iteration= 8 / 12 loss 1 = tensor(0.7809, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 2 iteration= 8 / 12 loss 2 = tensor(0.7436, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 2 iteration= 8 / 12 loss 3 = tensor(0.9154, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 2 iteration= 8 / 12 loss 4 = tensor(0.7289, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 2 iteration= 8 / 12 loss 5 = tensor(1.4924, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 2 iteration= 9 / 12 loss 0 = tensor(3.1340, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 2 iteration= 9 / 12 loss 1 = tensor(0.7020, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 2 iteration= 9 / 12 loss 2 = tensor(0.6908, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 2 iteration= 9 / 12 loss 3 = tensor(1.0439, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 2 iteration= 9 / 12 loss 4 = tensor(0.6962, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 2 iteration= 9 / 12 loss 5 = tensor(0.7559, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 2 iteration= 10 / 12 loss 0 = tensor(5.8652, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 2 iteration= 10 / 12 loss 1 = tensor(0.6899, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 2 iteration= 10 / 12 loss 2 = tensor(1.0994, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 2 iteration= 10 / 12 loss 3 = tensor(1.1611, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 2 iteration= 10 / 12 loss 4 = tensor(0.6796, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 2 iteration= 10 / 12 loss 5 = tensor(0.7137, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 2 iteration= 11 / 12 loss 0 = tensor(3.9896, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 2 iteration= 11 / 12 loss 1 = tensor(0.7118, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 2 iteration= 11 / 12 loss 2 = tensor(0.8625, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 2 iteration= 11 / 12 loss 3 = tensor(0.7535, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 2 iteration= 11 / 12 loss 4 = tensor(0.7702, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 2 iteration= 11 / 12 loss 5 = tensor(0.6846, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 2 iteration= 12 / 12 loss 0 = tensor(3.1860, device='cuda:0', grad_fn=<AddBackward0>)
+**********test on data_validation of attribute 0  start ************
+accuracy =  0.5833333333333334
+change of accuracy on data_train 0:
+0.5243055555555556
+0.5034722222222223
+change of accuracy on data_validation 0:
+0.4166666666666667
+0.5833333333333334
+**********test on data_validation of attribute 0  finished ************
+
+
+epoch= 2 iteration= 12 / 12 loss 1 = tensor(0.6393, device='cuda:0', grad_fn=<AddBackward0>)
+**********test on data_validation of attribute 1  start ************
+accuracy =  0.625
+change of accuracy on data_train 1:
+0.5034722222222222
+0.517361111111111
+change of accuracy on data_validation 1:
+0.625
+0.625
+**********test on data_validation of attribute 1  finished ************
+
+
+epoch= 2 iteration= 12 / 12 loss 2 = tensor(0.7285, device='cuda:0', grad_fn=<AddBackward0>)
+**********test on data_validation of attribute 2  start ************
+accuracy =  0.5
+change of accuracy on data_train 2:
+0.46874999999999994
+0.5208333333333334
+change of accuracy on data_validation 2:
+0.625
+0.5
+**********test on data_validation of attribute 2  finished ************
+
+
+epoch= 2 iteration= 12 / 12 loss 3 = tensor(0.6796, device='cuda:0', grad_fn=<AddBackward0>)
+**********test on data_validation of attribute 3  start ************
+accuracy =  0.4166666666666667
+change of accuracy on data_train 3:
+0.513888888888889
+0.4791666666666667
+change of accuracy on data_validation 3:
+0.5833333333333334
+0.4166666666666667
+**********test on data_validation of attribute 3  finished ************
+
+
+epoch= 2 iteration= 12 / 12 loss 4 = tensor(0.7034, device='cuda:0', grad_fn=<AddBackward0>)
+**********test on data_validation of attribute 4  start ************
+accuracy =  0.4166666666666667
+change of accuracy on data_train 4:
+0.4930555555555556
+0.5104166666666667
+change of accuracy on data_validation 4:
+0.4166666666666667
+0.4166666666666667
+**********test on data_validation of attribute 4  finished ************
+
+
+epoch= 2 iteration= 12 / 12 loss 5 = tensor(0.6632, device='cuda:0', grad_fn=<AddBackward0>)
+**********test on data_validation of attribute 5  start ************
+accuracy =  0.5
+change of accuracy on data_train 5:
+0.4930555555555555
+0.5
+change of accuracy on data_validation 5:
+0.5
+0.5
+**********test on data_validation of attribute 5  finished ************
+
+
+
+
+epoch 1finished, changes of losses as following: 
+change of loss0 every epoch:
+tensor(8.0203, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(4.5101, device='cuda:0', grad_fn=<DivBackward0>)
+change of loss1 every epoch:
+tensor(2.8156, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.7905, device='cuda:0', grad_fn=<DivBackward0>)
+change of loss2 every epoch:
+tensor(3.9481, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.9885, device='cuda:0', grad_fn=<DivBackward0>)
+change of loss3 every epoch:
+tensor(3.4799, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.0914, device='cuda:0', grad_fn=<DivBackward0>)
+change of loss4 every epoch:
+tensor(2.5972, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.0614, device='cuda:0', grad_fn=<DivBackward0>)
+change of loss5 every epoch:
+tensor(3.4843, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.2418, device='cuda:0', grad_fn=<DivBackward0>)
+epoch= 3 iteration= 1 / 12 loss 0 = tensor(1.9995, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 3 iteration= 1 / 12 loss 1 = tensor(0.7278, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 3 iteration= 1 / 12 loss 2 = tensor(0.7481, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 3 iteration= 1 / 12 loss 3 = tensor(0.7967, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 3 iteration= 1 / 12 loss 4 = tensor(0.7579, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 3 iteration= 1 / 12 loss 5 = tensor(0.6965, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 3 iteration= 2 / 12 loss 0 = tensor(2.2605, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 3 iteration= 2 / 12 loss 1 = tensor(0.6446, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 3 iteration= 2 / 12 loss 2 = tensor(0.7677, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 3 iteration= 2 / 12 loss 3 = tensor(0.7421, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 3 iteration= 2 / 12 loss 4 = tensor(0.7214, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 3 iteration= 2 / 12 loss 5 = tensor(0.6741, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 3 iteration= 3 / 12 loss 0 = tensor(1.0242, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 3 iteration= 3 / 12 loss 1 = tensor(0.6246, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 3 iteration= 3 / 12 loss 2 = tensor(0.6875, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 3 iteration= 3 / 12 loss 3 = tensor(0.7067, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 3 iteration= 3 / 12 loss 4 = tensor(0.6576, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 3 iteration= 3 / 12 loss 5 = tensor(0.7363, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 3 iteration= 4 / 12 loss 0 = tensor(0.6911, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 3 iteration= 4 / 12 loss 1 = tensor(0.7203, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 3 iteration= 4 / 12 loss 2 = tensor(0.8378, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 3 iteration= 4 / 12 loss 3 = tensor(0.9125, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 3 iteration= 4 / 12 loss 4 = tensor(0.6888, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 3 iteration= 4 / 12 loss 5 = tensor(0.6475, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 3 iteration= 5 / 12 loss 0 = tensor(1.5183, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 3 iteration= 5 / 12 loss 1 = tensor(0.7671, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 3 iteration= 5 / 12 loss 2 = tensor(0.6886, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 3 iteration= 5 / 12 loss 3 = tensor(0.7985, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 3 iteration= 5 / 12 loss 4 = tensor(0.6879, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 3 iteration= 5 / 12 loss 5 = tensor(0.6387, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 3 iteration= 6 / 12 loss 0 = tensor(1.2693, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 3 iteration= 6 / 12 loss 1 = tensor(0.7139, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 3 iteration= 6 / 12 loss 2 = tensor(0.9169, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 3 iteration= 6 / 12 loss 3 = tensor(0.8214, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 3 iteration= 6 / 12 loss 4 = tensor(0.6809, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 3 iteration= 6 / 12 loss 5 = tensor(0.6642, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 3 iteration= 7 / 12 loss 0 = tensor(2.2618, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 3 iteration= 7 / 12 loss 1 = tensor(0.7447, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 3 iteration= 7 / 12 loss 2 = tensor(0.7337, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 3 iteration= 7 / 12 loss 3 = tensor(0.7529, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 3 iteration= 7 / 12 loss 4 = tensor(0.6661, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 3 iteration= 7 / 12 loss 5 = tensor(0.6033, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 3 iteration= 8 / 12 loss 0 = tensor(1.9150, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 3 iteration= 8 / 12 loss 1 = tensor(0.7323, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 3 iteration= 8 / 12 loss 2 = tensor(0.7890, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 3 iteration= 8 / 12 loss 3 = tensor(0.6872, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 3 iteration= 8 / 12 loss 4 = tensor(0.7170, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 3 iteration= 8 / 12 loss 5 = tensor(0.6414, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 3 iteration= 9 / 12 loss 0 = tensor(1.1010, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 3 iteration= 9 / 12 loss 1 = tensor(0.7511, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 3 iteration= 9 / 12 loss 2 = tensor(1.3093, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 3 iteration= 9 / 12 loss 3 = tensor(0.6965, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 3 iteration= 9 / 12 loss 4 = tensor(0.7105, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 3 iteration= 9 / 12 loss 5 = tensor(0.7522, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 3 iteration= 10 / 12 loss 0 = tensor(0.7590, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 3 iteration= 10 / 12 loss 1 = tensor(0.6845, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 3 iteration= 10 / 12 loss 2 = tensor(0.7538, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 3 iteration= 10 / 12 loss 3 = tensor(0.7063, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 3 iteration= 10 / 12 loss 4 = tensor(0.6584, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 3 iteration= 10 / 12 loss 5 = tensor(0.6681, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 3 iteration= 11 / 12 loss 0 = tensor(0.7385, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 3 iteration= 11 / 12 loss 1 = tensor(0.6898, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 3 iteration= 11 / 12 loss 2 = tensor(0.9074, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 3 iteration= 11 / 12 loss 3 = tensor(0.7071, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 3 iteration= 11 / 12 loss 4 = tensor(0.7406, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 3 iteration= 11 / 12 loss 5 = tensor(0.7013, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 3 iteration= 12 / 12 loss 0 = tensor(0.8010, device='cuda:0', grad_fn=<AddBackward0>)
+**********test on data_validation of attribute 0  start ************
+accuracy =  0.4166666666666667
+change of accuracy on data_train 0:
+0.5243055555555556
+0.5034722222222223
+0.5173611111111112
+change of accuracy on data_validation 0:
+0.4166666666666667
+0.5833333333333334
+0.4166666666666667
+**********test on data_validation of attribute 0  finished ************
+
+
+epoch= 3 iteration= 12 / 12 loss 1 = tensor(0.7104, device='cuda:0', grad_fn=<AddBackward0>)
+**********test on data_validation of attribute 1  start ************
+accuracy =  0.625
+change of accuracy on data_train 1:
+0.5034722222222222
+0.517361111111111
+0.5069444444444445
+change of accuracy on data_validation 1:
+0.625
+0.625
+0.625
+**********test on data_validation of attribute 1  finished ************
+
+
+epoch= 3 iteration= 12 / 12 loss 2 = tensor(0.9060, device='cuda:0', grad_fn=<AddBackward0>)
+**********test on data_validation of attribute 2  start ************
+accuracy =  0.375
+change of accuracy on data_train 2:
+0.46874999999999994
+0.5208333333333334
+0.4201388888888889
+change of accuracy on data_validation 2:
+0.625
+0.5
+0.375
+**********test on data_validation of attribute 2  finished ************
+
+
+epoch= 3 iteration= 12 / 12 loss 3 = tensor(0.7397, device='cuda:0', grad_fn=<AddBackward0>)
+**********test on data_validation of attribute 3  start ************
+accuracy =  0.5833333333333334
+change of accuracy on data_train 3:
+0.513888888888889
+0.4791666666666667
+0.5381944444444445
+change of accuracy on data_validation 3:
+0.5833333333333334
+0.4166666666666667
+0.5833333333333334
+**********test on data_validation of attribute 3  finished ************
+
+
+epoch= 3 iteration= 12 / 12 loss 4 = tensor(0.7556, device='cuda:0', grad_fn=<AddBackward0>)
+**********test on data_validation of attribute 4  start ************
+accuracy =  0.5833333333333334
+change of accuracy on data_train 4:
+0.4930555555555556
+0.5104166666666667
+0.4930555555555556
+change of accuracy on data_validation 4:
+0.4166666666666667
+0.4166666666666667
+0.5833333333333334
+**********test on data_validation of attribute 4  finished ************
+
+
+epoch= 3 iteration= 12 / 12 loss 5 = tensor(0.8734, device='cuda:0', grad_fn=<AddBackward0>)
+**********test on data_validation of attribute 5  start ************
+accuracy =  0.5833333333333334
+change of accuracy on data_train 5:
+0.4930555555555555
+0.5
+0.5729166666666666
+change of accuracy on data_validation 5:
+0.5
+0.5
+0.5833333333333334
+**********test on data_validation of attribute 5  finished ************
+
+
+
+
+epoch 2finished, changes of losses as following: 
+change of loss0 every epoch:
+tensor(8.0203, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(4.5101, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.3616, device='cuda:0', grad_fn=<DivBackward0>)
+change of loss1 every epoch:
+tensor(2.8156, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.7905, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.7093, device='cuda:0', grad_fn=<DivBackward0>)
+change of loss2 every epoch:
+tensor(3.9481, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.9885, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.8371, device='cuda:0', grad_fn=<DivBackward0>)
+change of loss3 every epoch:
+tensor(3.4799, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.0914, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.7556, device='cuda:0', grad_fn=<DivBackward0>)
+change of loss4 every epoch:
+tensor(2.5972, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.0614, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.7036, device='cuda:0', grad_fn=<DivBackward0>)
+change of loss5 every epoch:
+tensor(3.4843, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.2418, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.6914, device='cuda:0', grad_fn=<DivBackward0>)
+epoch= 4 iteration= 1 / 12 loss 0 = tensor(0.7443, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 4 iteration= 1 / 12 loss 1 = tensor(0.7072, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 4 iteration= 1 / 12 loss 2 = tensor(0.8878, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 4 iteration= 1 / 12 loss 3 = tensor(0.7784, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 4 iteration= 1 / 12 loss 4 = tensor(0.7092, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 4 iteration= 1 / 12 loss 5 = tensor(0.6355, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 4 iteration= 2 / 12 loss 0 = tensor(0.6854, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 4 iteration= 2 / 12 loss 1 = tensor(0.6878, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 4 iteration= 2 / 12 loss 2 = tensor(0.6976, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 4 iteration= 2 / 12 loss 3 = tensor(0.8074, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 4 iteration= 2 / 12 loss 4 = tensor(0.6889, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 4 iteration= 2 / 12 loss 5 = tensor(0.6201, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 4 iteration= 3 / 12 loss 0 = tensor(0.6857, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 4 iteration= 3 / 12 loss 1 = tensor(0.7151, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 4 iteration= 3 / 12 loss 2 = tensor(0.8027, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 4 iteration= 3 / 12 loss 3 = tensor(0.7166, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 4 iteration= 3 / 12 loss 4 = tensor(0.7205, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 4 iteration= 3 / 12 loss 5 = tensor(0.7065, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 4 iteration= 4 / 12 loss 0 = tensor(0.7487, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 4 iteration= 4 / 12 loss 1 = tensor(0.7430, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 4 iteration= 4 / 12 loss 2 = tensor(0.8924, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 4 iteration= 4 / 12 loss 3 = tensor(0.7569, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 4 iteration= 4 / 12 loss 4 = tensor(0.7119, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 4 iteration= 4 / 12 loss 5 = tensor(0.7141, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 4 iteration= 5 / 12 loss 0 = tensor(0.9766, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 4 iteration= 5 / 12 loss 1 = tensor(0.6883, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 4 iteration= 5 / 12 loss 2 = tensor(0.7807, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 4 iteration= 5 / 12 loss 3 = tensor(0.6817, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 4 iteration= 5 / 12 loss 4 = tensor(0.6725, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 4 iteration= 5 / 12 loss 5 = tensor(0.6184, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 4 iteration= 6 / 12 loss 0 = tensor(0.8000, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 4 iteration= 6 / 12 loss 1 = tensor(0.6753, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 4 iteration= 6 / 12 loss 2 = tensor(0.7118, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 4 iteration= 6 / 12 loss 3 = tensor(0.7633, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 4 iteration= 6 / 12 loss 4 = tensor(0.6836, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 4 iteration= 6 / 12 loss 5 = tensor(0.6451, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 4 iteration= 7 / 12 loss 0 = tensor(0.8484, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 4 iteration= 7 / 12 loss 1 = tensor(0.7030, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 4 iteration= 7 / 12 loss 2 = tensor(0.8759, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 4 iteration= 7 / 12 loss 3 = tensor(0.7471, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 4 iteration= 7 / 12 loss 4 = tensor(0.7641, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 4 iteration= 7 / 12 loss 5 = tensor(0.6571, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 4 iteration= 8 / 12 loss 0 = tensor(0.8732, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 4 iteration= 8 / 12 loss 1 = tensor(0.6849, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 4 iteration= 8 / 12 loss 2 = tensor(0.7050, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 4 iteration= 8 / 12 loss 3 = tensor(0.6913, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 4 iteration= 8 / 12 loss 4 = tensor(0.7223, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 4 iteration= 8 / 12 loss 5 = tensor(0.7447, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 4 iteration= 9 / 12 loss 0 = tensor(0.7355, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 4 iteration= 9 / 12 loss 1 = tensor(0.6957, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 4 iteration= 9 / 12 loss 2 = tensor(0.7520, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 4 iteration= 9 / 12 loss 3 = tensor(0.7019, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 4 iteration= 9 / 12 loss 4 = tensor(0.6899, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 4 iteration= 9 / 12 loss 5 = tensor(0.6352, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 4 iteration= 10 / 12 loss 0 = tensor(0.6575, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 4 iteration= 10 / 12 loss 1 = tensor(0.6826, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 4 iteration= 10 / 12 loss 2 = tensor(0.6877, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 4 iteration= 10 / 12 loss 3 = tensor(0.7039, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 4 iteration= 10 / 12 loss 4 = tensor(0.7057, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 4 iteration= 10 / 12 loss 5 = tensor(0.6086, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 4 iteration= 11 / 12 loss 0 = tensor(0.6689, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 4 iteration= 11 / 12 loss 1 = tensor(0.6902, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 4 iteration= 11 / 12 loss 2 = tensor(0.7513, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 4 iteration= 11 / 12 loss 3 = tensor(0.6912, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 4 iteration= 11 / 12 loss 4 = tensor(0.6947, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 4 iteration= 11 / 12 loss 5 = tensor(0.6929, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 4 iteration= 12 / 12 loss 0 = tensor(0.6744, device='cuda:0', grad_fn=<AddBackward0>)
+**********test on data_validation of attribute 0  start ************
+accuracy =  0.5833333333333334
+change of accuracy on data_train 0:
+0.5243055555555556
+0.5034722222222223
+0.5173611111111112
+0.4791666666666667
+change of accuracy on data_validation 0:
+0.4166666666666667
+0.5833333333333334
+0.4166666666666667
+0.5833333333333334
+**********test on data_validation of attribute 0  finished ************
+
+
+epoch= 4 iteration= 12 / 12 loss 1 = tensor(0.6886, device='cuda:0', grad_fn=<AddBackward0>)
+**********test on data_validation of attribute 1  start ************
+accuracy =  0.625
+change of accuracy on data_train 1:
+0.5034722222222222
+0.517361111111111
+0.5069444444444445
+0.5
+change of accuracy on data_validation 1:
+0.625
+0.625
+0.625
+0.625
+**********test on data_validation of attribute 1  finished ************
+
+
+epoch= 4 iteration= 12 / 12 loss 2 = tensor(0.8288, device='cuda:0', grad_fn=<AddBackward0>)
+**********test on data_validation of attribute 2  start ************
+accuracy =  0.6666666666666666
+change of accuracy on data_train 2:
+0.46874999999999994
+0.5208333333333334
+0.4201388888888889
+0.4479166666666667
+change of accuracy on data_validation 2:
+0.625
+0.5
+0.375
+0.6666666666666666
+**********test on data_validation of attribute 2  finished ************
+
+
+epoch= 4 iteration= 12 / 12 loss 3 = tensor(0.6954, device='cuda:0', grad_fn=<AddBackward0>)
+**********test on data_validation of attribute 3  start ************
+accuracy =  0.4166666666666667
+change of accuracy on data_train 3:
+0.513888888888889
+0.4791666666666667
+0.5381944444444445
+0.4756944444444445
+change of accuracy on data_validation 3:
+0.5833333333333334
+0.4166666666666667
+0.5833333333333334
+0.4166666666666667
+**********test on data_validation of attribute 3  finished ************
+
+
+epoch= 4 iteration= 12 / 12 loss 4 = tensor(0.6609, device='cuda:0', grad_fn=<AddBackward0>)
+**********test on data_validation of attribute 4  start ************
+accuracy =  0.4583333333333333
+change of accuracy on data_train 4:
+0.4930555555555556
+0.5104166666666667
+0.4930555555555556
+0.4791666666666667
+change of accuracy on data_validation 4:
+0.4166666666666667
+0.4166666666666667
+0.5833333333333334
+0.4583333333333333
+**********test on data_validation of attribute 4  finished ************
+
+
+epoch= 4 iteration= 12 / 12 loss 5 = tensor(0.5678, device='cuda:0', grad_fn=<AddBackward0>)
+**********test on data_validation of attribute 5  start ************
+accuracy =  0.75
+change of accuracy on data_train 5:
+0.4930555555555555
+0.5
+0.5729166666666666
+0.6284722222222222
+change of accuracy on data_validation 5:
+0.5
+0.5
+0.5833333333333334
+0.75
+**********test on data_validation of attribute 5  finished ************
+
+
+
+
+epoch 3finished, changes of losses as following: 
+change of loss0 every epoch:
+tensor(8.0203, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(4.5101, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.3616, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.7582, device='cuda:0', grad_fn=<DivBackward0>)
+change of loss1 every epoch:
+tensor(2.8156, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.7905, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.7093, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.6968, device='cuda:0', grad_fn=<DivBackward0>)
+change of loss2 every epoch:
+tensor(3.9481, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.9885, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.8371, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.7811, device='cuda:0', grad_fn=<DivBackward0>)
+change of loss3 every epoch:
+tensor(3.4799, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.0914, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.7556, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.7279, device='cuda:0', grad_fn=<DivBackward0>)
+change of loss4 every epoch:
+tensor(2.5972, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.0614, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.7036, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.7020, device='cuda:0', grad_fn=<DivBackward0>)
+change of loss5 every epoch:
+tensor(3.4843, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.2418, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.6914, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.6539, device='cuda:0', grad_fn=<DivBackward0>)
+epoch= 5 iteration= 1 / 12 loss 0 = tensor(0.7058, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 5 iteration= 1 / 12 loss 1 = tensor(0.6900, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 5 iteration= 1 / 12 loss 2 = tensor(0.7527, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 5 iteration= 1 / 12 loss 3 = tensor(0.6887, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 5 iteration= 1 / 12 loss 4 = tensor(0.6897, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 5 iteration= 1 / 12 loss 5 = tensor(0.6001, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 5 iteration= 2 / 12 loss 0 = tensor(0.6911, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 5 iteration= 2 / 12 loss 1 = tensor(0.6909, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 5 iteration= 2 / 12 loss 2 = tensor(0.7501, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 5 iteration= 2 / 12 loss 3 = tensor(0.7065, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 5 iteration= 2 / 12 loss 4 = tensor(0.6828, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 5 iteration= 2 / 12 loss 5 = tensor(0.7649, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 5 iteration= 3 / 12 loss 0 = tensor(0.6896, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 5 iteration= 3 / 12 loss 1 = tensor(0.6905, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 5 iteration= 3 / 12 loss 2 = tensor(0.8371, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 5 iteration= 3 / 12 loss 3 = tensor(0.6943, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 5 iteration= 3 / 12 loss 4 = tensor(0.6744, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 5 iteration= 3 / 12 loss 5 = tensor(0.5873, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 5 iteration= 4 / 12 loss 0 = tensor(0.6886, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 5 iteration= 4 / 12 loss 1 = tensor(0.6845, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 5 iteration= 4 / 12 loss 2 = tensor(0.6775, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 5 iteration= 4 / 12 loss 3 = tensor(0.6942, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 5 iteration= 4 / 12 loss 4 = tensor(0.6678, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 5 iteration= 4 / 12 loss 5 = tensor(0.6406, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 5 iteration= 5 / 12 loss 0 = tensor(0.6881, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 5 iteration= 5 / 12 loss 1 = tensor(0.6891, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 5 iteration= 5 / 12 loss 2 = tensor(0.9131, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 5 iteration= 5 / 12 loss 3 = tensor(0.7149, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 5 iteration= 5 / 12 loss 4 = tensor(0.6869, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 5 iteration= 5 / 12 loss 5 = tensor(0.5233, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 5 iteration= 6 / 12 loss 0 = tensor(0.6831, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 5 iteration= 6 / 12 loss 1 = tensor(0.6915, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 5 iteration= 6 / 12 loss 2 = tensor(0.7217, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 5 iteration= 6 / 12 loss 3 = tensor(0.7187, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 5 iteration= 6 / 12 loss 4 = tensor(0.7129, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 5 iteration= 6 / 12 loss 5 = tensor(0.9355, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 5 iteration= 7 / 12 loss 0 = tensor(0.7214, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 5 iteration= 7 / 12 loss 1 = tensor(0.6939, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 5 iteration= 7 / 12 loss 2 = tensor(0.6706, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 5 iteration= 7 / 12 loss 3 = tensor(0.6827, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 5 iteration= 7 / 12 loss 4 = tensor(0.6881, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 5 iteration= 7 / 12 loss 5 = tensor(0.6082, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 5 iteration= 8 / 12 loss 0 = tensor(0.6854, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 5 iteration= 8 / 12 loss 1 = tensor(0.6887, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 5 iteration= 8 / 12 loss 2 = tensor(0.8383, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 5 iteration= 8 / 12 loss 3 = tensor(0.6772, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 5 iteration= 8 / 12 loss 4 = tensor(0.6796, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 5 iteration= 8 / 12 loss 5 = tensor(0.5959, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 5 iteration= 9 / 12 loss 0 = tensor(0.6979, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 5 iteration= 9 / 12 loss 1 = tensor(0.6938, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 5 iteration= 9 / 12 loss 2 = tensor(0.9877, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 5 iteration= 9 / 12 loss 3 = tensor(0.6683, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 5 iteration= 9 / 12 loss 4 = tensor(0.6845, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 5 iteration= 9 / 12 loss 5 = tensor(0.6128, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 5 iteration= 10 / 12 loss 0 = tensor(0.6768, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 5 iteration= 10 / 12 loss 1 = tensor(0.6943, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 5 iteration= 10 / 12 loss 2 = tensor(0.8690, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 5 iteration= 10 / 12 loss 3 = tensor(0.6930, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 5 iteration= 10 / 12 loss 4 = tensor(0.6879, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 5 iteration= 10 / 12 loss 5 = tensor(0.6054, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 5 iteration= 11 / 12 loss 0 = tensor(0.6683, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 5 iteration= 11 / 12 loss 1 = tensor(0.6925, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 5 iteration= 11 / 12 loss 2 = tensor(0.6743, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 5 iteration= 11 / 12 loss 3 = tensor(0.6745, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 5 iteration= 11 / 12 loss 4 = tensor(0.6830, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 5 iteration= 11 / 12 loss 5 = tensor(0.6771, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 5 iteration= 12 / 12 loss 0 = tensor(0.7140, device='cuda:0', grad_fn=<AddBackward0>)
+**********test on data_validation of attribute 0  start ************
+accuracy =  0.4166666666666667
+change of accuracy on data_train 0:
+0.5243055555555556
+0.5034722222222223
+0.5173611111111112
+0.4791666666666667
+0.5173611111111112
+change of accuracy on data_validation 0:
+0.4166666666666667
+0.5833333333333334
+0.4166666666666667
+0.5833333333333334
+0.4166666666666667
+**********test on data_validation of attribute 0  finished ************
+
+
+epoch= 5 iteration= 12 / 12 loss 1 = tensor(0.6892, device='cuda:0', grad_fn=<AddBackward0>)
+**********test on data_validation of attribute 1  start ************
+accuracy =  0.6666666666666666
+change of accuracy on data_train 1:
+0.5034722222222222
+0.517361111111111
+0.5069444444444445
+0.5
+0.4930555555555555
+change of accuracy on data_validation 1:
+0.625
+0.625
+0.625
+0.625
+0.6666666666666666
+**********test on data_validation of attribute 1  finished ************
+
+
+epoch= 5 iteration= 12 / 12 loss 2 = tensor(0.7590, device='cuda:0', grad_fn=<AddBackward0>)
+**********test on data_validation of attribute 2  start ************
+accuracy =  0.375
+change of accuracy on data_train 2:
+0.46874999999999994
+0.5208333333333334
+0.4201388888888889
+0.4479166666666667
+0.4826388888888889
+change of accuracy on data_validation 2:
+0.625
+0.5
+0.375
+0.6666666666666666
+0.375
+**********test on data_validation of attribute 2  finished ************
+
+
+epoch= 5 iteration= 12 / 12 loss 3 = tensor(0.6991, device='cuda:0', grad_fn=<AddBackward0>)
+**********test on data_validation of attribute 3  start ************
+accuracy =  0.4166666666666667
+change of accuracy on data_train 3:
+0.513888888888889
+0.4791666666666667
+0.5381944444444445
+0.4756944444444445
+0.5347222222222223
+change of accuracy on data_validation 3:
+0.5833333333333334
+0.4166666666666667
+0.5833333333333334
+0.4166666666666667
+0.4166666666666667
+**********test on data_validation of attribute 3  finished ************
+
+
+epoch= 5 iteration= 12 / 12 loss 4 = tensor(0.6797, device='cuda:0', grad_fn=<AddBackward0>)
+**********test on data_validation of attribute 4  start ************
+accuracy =  0.5833333333333334
+change of accuracy on data_train 4:
+0.4930555555555556
+0.5104166666666667
+0.4930555555555556
+0.4791666666666667
+0.5937499999999999
+change of accuracy on data_validation 4:
+0.4166666666666667
+0.4166666666666667
+0.5833333333333334
+0.4583333333333333
+0.5833333333333334
+**********test on data_validation of attribute 4  finished ************
+
+
+epoch= 5 iteration= 12 / 12 loss 5 = tensor(0.6409, device='cuda:0', grad_fn=<AddBackward0>)
+**********test on data_validation of attribute 5  start ************
+accuracy =  0.7083333333333334
+change of accuracy on data_train 5:
+0.4930555555555555
+0.5
+0.5729166666666666
+0.6284722222222222
+0.6666666666666666
+change of accuracy on data_validation 5:
+0.5
+0.5
+0.5833333333333334
+0.75
+0.7083333333333334
+**********test on data_validation of attribute 5  finished ************
+
+
+
+
+epoch 4finished, changes of losses as following: 
+change of loss0 every epoch:
+tensor(8.0203, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(4.5101, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.3616, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.7582, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.6925, device='cuda:0', grad_fn=<DivBackward0>)
+change of loss1 every epoch:
+tensor(2.8156, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.7905, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.7093, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.6968, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.6907, device='cuda:0', grad_fn=<DivBackward0>)
+change of loss2 every epoch:
+tensor(3.9481, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.9885, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.8371, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.7811, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.7876, device='cuda:0', grad_fn=<DivBackward0>)
+change of loss3 every epoch:
+tensor(3.4799, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.0914, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.7556, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.7279, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.6927, device='cuda:0', grad_fn=<DivBackward0>)
+change of loss4 every epoch:
+tensor(2.5972, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.0614, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.7036, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.7020, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.6848, device='cuda:0', grad_fn=<DivBackward0>)
+change of loss5 every epoch:
+tensor(3.4843, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.2418, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.6914, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.6539, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.6493, device='cuda:0', grad_fn=<DivBackward0>)
+epoch= 6 iteration= 1 / 12 loss 0 = tensor(0.7166, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 6 iteration= 1 / 12 loss 1 = tensor(0.6928, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 6 iteration= 1 / 12 loss 2 = tensor(0.7675, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 6 iteration= 1 / 12 loss 3 = tensor(0.6985, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 6 iteration= 1 / 12 loss 4 = tensor(0.6752, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 6 iteration= 1 / 12 loss 5 = tensor(0.6586, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 6 iteration= 2 / 12 loss 0 = tensor(0.6775, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 6 iteration= 2 / 12 loss 1 = tensor(0.6891, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 6 iteration= 2 / 12 loss 2 = tensor(0.8077, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 6 iteration= 2 / 12 loss 3 = tensor(0.7389, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 6 iteration= 2 / 12 loss 4 = tensor(0.6816, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 6 iteration= 2 / 12 loss 5 = tensor(0.5676, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 6 iteration= 3 / 12 loss 0 = tensor(0.6546, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 6 iteration= 3 / 12 loss 1 = tensor(0.6909, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 6 iteration= 3 / 12 loss 2 = tensor(0.6205, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 6 iteration= 3 / 12 loss 3 = tensor(0.6779, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 6 iteration= 3 / 12 loss 4 = tensor(0.6833, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 6 iteration= 3 / 12 loss 5 = tensor(0.5667, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 6 iteration= 4 / 12 loss 0 = tensor(0.6988, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 6 iteration= 4 / 12 loss 1 = tensor(0.6862, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 6 iteration= 4 / 12 loss 2 = tensor(0.6626, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 6 iteration= 4 / 12 loss 3 = tensor(0.7203, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 6 iteration= 4 / 12 loss 4 = tensor(0.6769, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 6 iteration= 4 / 12 loss 5 = tensor(0.6456, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 6 iteration= 5 / 12 loss 0 = tensor(0.7244, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 6 iteration= 5 / 12 loss 1 = tensor(0.6910, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 6 iteration= 5 / 12 loss 2 = tensor(0.7293, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 6 iteration= 5 / 12 loss 3 = tensor(0.6802, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 6 iteration= 5 / 12 loss 4 = tensor(0.6620, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 6 iteration= 5 / 12 loss 5 = tensor(0.5193, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 6 iteration= 6 / 12 loss 0 = tensor(0.7162, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 6 iteration= 6 / 12 loss 1 = tensor(0.6913, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 6 iteration= 6 / 12 loss 2 = tensor(0.6625, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 6 iteration= 6 / 12 loss 3 = tensor(0.7014, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 6 iteration= 6 / 12 loss 4 = tensor(0.7000, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 6 iteration= 6 / 12 loss 5 = tensor(0.5470, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 6 iteration= 7 / 12 loss 0 = tensor(0.7156, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 6 iteration= 7 / 12 loss 1 = tensor(0.6910, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 6 iteration= 7 / 12 loss 2 = tensor(0.7269, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 6 iteration= 7 / 12 loss 3 = tensor(0.6962, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 6 iteration= 7 / 12 loss 4 = tensor(0.7058, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 6 iteration= 7 / 12 loss 5 = tensor(0.5864, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 6 iteration= 8 / 12 loss 0 = tensor(0.7043, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 6 iteration= 8 / 12 loss 1 = tensor(0.6929, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 6 iteration= 8 / 12 loss 2 = tensor(0.7267, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 6 iteration= 8 / 12 loss 3 = tensor(0.6797, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 6 iteration= 8 / 12 loss 4 = tensor(0.6909, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 6 iteration= 8 / 12 loss 5 = tensor(0.6327, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 6 iteration= 9 / 12 loss 0 = tensor(0.6888, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 6 iteration= 9 / 12 loss 1 = tensor(0.6896, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 6 iteration= 9 / 12 loss 2 = tensor(0.7082, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 6 iteration= 9 / 12 loss 3 = tensor(0.6928, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 6 iteration= 9 / 12 loss 4 = tensor(0.7139, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 6 iteration= 9 / 12 loss 5 = tensor(0.5412, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 6 iteration= 10 / 12 loss 0 = tensor(0.6841, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 6 iteration= 10 / 12 loss 1 = tensor(0.6894, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 6 iteration= 10 / 12 loss 2 = tensor(0.6888, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 6 iteration= 10 / 12 loss 3 = tensor(0.6793, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 6 iteration= 10 / 12 loss 4 = tensor(0.6686, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 6 iteration= 10 / 12 loss 5 = tensor(0.6206, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 6 iteration= 11 / 12 loss 0 = tensor(0.6784, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 6 iteration= 11 / 12 loss 1 = tensor(0.6861, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 6 iteration= 11 / 12 loss 2 = tensor(0.8087, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 6 iteration= 11 / 12 loss 3 = tensor(0.6749, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 6 iteration= 11 / 12 loss 4 = tensor(0.6933, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 6 iteration= 11 / 12 loss 5 = tensor(0.5779, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 6 iteration= 12 / 12 loss 0 = tensor(0.6876, device='cuda:0', grad_fn=<AddBackward0>)
+**********test on data_validation of attribute 0  start ************
+accuracy =  0.4583333333333333
+change of accuracy on data_train 0:
+0.5243055555555556
+0.5034722222222223
+0.5173611111111112
+0.4791666666666667
+0.5173611111111112
+0.5277777777777778
+change of accuracy on data_validation 0:
+0.4166666666666667
+0.5833333333333334
+0.4166666666666667
+0.5833333333333334
+0.4166666666666667
+0.4583333333333333
+**********test on data_validation of attribute 0  finished ************
+
+
+epoch= 6 iteration= 12 / 12 loss 1 = tensor(0.6989, device='cuda:0', grad_fn=<AddBackward0>)
+**********test on data_validation of attribute 1  start ************
+accuracy =  0.6666666666666666
+change of accuracy on data_train 1:
+0.5034722222222222
+0.517361111111111
+0.5069444444444445
+0.5
+0.4930555555555555
+0.5312500000000001
+change of accuracy on data_validation 1:
+0.625
+0.625
+0.625
+0.625
+0.6666666666666666
+0.6666666666666666
+**********test on data_validation of attribute 1  finished ************
+
+
+epoch= 6 iteration= 12 / 12 loss 2 = tensor(0.6798, device='cuda:0', grad_fn=<AddBackward0>)
+**********test on data_validation of attribute 2  start ************
+accuracy =  0.375
+change of accuracy on data_train 2:
+0.46874999999999994
+0.5208333333333334
+0.4201388888888889
+0.4479166666666667
+0.4826388888888889
+0.5069444444444445
+change of accuracy on data_validation 2:
+0.625
+0.5
+0.375
+0.6666666666666666
+0.375
+0.375
+**********test on data_validation of attribute 2  finished ************
+
+
+epoch= 6 iteration= 12 / 12 loss 3 = tensor(0.6705, device='cuda:0', grad_fn=<AddBackward0>)
+**********test on data_validation of attribute 3  start ************
+accuracy =  0.4166666666666667
+change of accuracy on data_train 3:
+0.513888888888889
+0.4791666666666667
+0.5381944444444445
+0.4756944444444445
+0.5347222222222223
+0.5312500000000001
+change of accuracy on data_validation 3:
+0.5833333333333334
+0.4166666666666667
+0.5833333333333334
+0.4166666666666667
+0.4166666666666667
+0.4166666666666667
+**********test on data_validation of attribute 3  finished ************
+
+
+epoch= 6 iteration= 12 / 12 loss 4 = tensor(0.6903, device='cuda:0', grad_fn=<AddBackward0>)
+**********test on data_validation of attribute 4  start ************
+accuracy =  0.5
+change of accuracy on data_train 4:
+0.4930555555555556
+0.5104166666666667
+0.4930555555555556
+0.4791666666666667
+0.5937499999999999
+0.5243055555555556
+change of accuracy on data_validation 4:
+0.4166666666666667
+0.4166666666666667
+0.5833333333333334
+0.4583333333333333
+0.5833333333333334
+0.5
+**********test on data_validation of attribute 4  finished ************
+
+
+epoch= 6 iteration= 12 / 12 loss 5 = tensor(0.6347, device='cuda:0', grad_fn=<AddBackward0>)
+**********test on data_validation of attribute 5  start ************
+accuracy =  0.7083333333333334
+change of accuracy on data_train 5:
+0.4930555555555555
+0.5
+0.5729166666666666
+0.6284722222222222
+0.6666666666666666
+0.7222222222222222
+change of accuracy on data_validation 5:
+0.5
+0.5
+0.5833333333333334
+0.75
+0.7083333333333334
+0.7083333333333334
+**********test on data_validation of attribute 5  finished ************
+
+
+
+
+epoch 5finished, changes of losses as following: 
+change of loss0 every epoch:
+tensor(8.0203, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(4.5101, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.3616, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.7582, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.6925, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.6956, device='cuda:0', grad_fn=<DivBackward0>)
+change of loss1 every epoch:
+tensor(2.8156, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.7905, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.7093, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.6968, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.6907, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.6908, device='cuda:0', grad_fn=<DivBackward0>)
+change of loss2 every epoch:
+tensor(3.9481, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.9885, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.8371, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.7811, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.7876, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.7158, device='cuda:0', grad_fn=<DivBackward0>)
+change of loss3 every epoch:
+tensor(3.4799, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.0914, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.7556, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.7279, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.6927, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.6926, device='cuda:0', grad_fn=<DivBackward0>)
+change of loss4 every epoch:
+tensor(2.5972, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.0614, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.7036, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.7020, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.6848, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.6868, device='cuda:0', grad_fn=<DivBackward0>)
+change of loss5 every epoch:
+tensor(3.4843, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.2418, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.6914, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.6539, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.6493, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.5915, device='cuda:0', grad_fn=<DivBackward0>)
+epoch= 7 iteration= 1 / 12 loss 0 = tensor(0.7005, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 7 iteration= 1 / 12 loss 1 = tensor(0.6933, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 7 iteration= 1 / 12 loss 2 = tensor(0.6749, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 7 iteration= 1 / 12 loss 3 = tensor(0.6819, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 7 iteration= 1 / 12 loss 4 = tensor(0.6863, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 7 iteration= 1 / 12 loss 5 = tensor(0.4242, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 7 iteration= 2 / 12 loss 0 = tensor(0.6916, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 7 iteration= 2 / 12 loss 1 = tensor(0.6902, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 7 iteration= 2 / 12 loss 2 = tensor(0.6766, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 7 iteration= 2 / 12 loss 3 = tensor(0.6926, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 7 iteration= 2 / 12 loss 4 = tensor(0.6749, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 7 iteration= 2 / 12 loss 5 = tensor(0.6616, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 7 iteration= 3 / 12 loss 0 = tensor(0.6942, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 7 iteration= 3 / 12 loss 1 = tensor(0.6918, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 7 iteration= 3 / 12 loss 2 = tensor(0.6852, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 7 iteration= 3 / 12 loss 3 = tensor(0.7021, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 7 iteration= 3 / 12 loss 4 = tensor(0.6722, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 7 iteration= 3 / 12 loss 5 = tensor(0.5309, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 7 iteration= 4 / 12 loss 0 = tensor(0.6908, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 7 iteration= 4 / 12 loss 1 = tensor(0.6918, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 7 iteration= 4 / 12 loss 2 = tensor(0.6720, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 7 iteration= 4 / 12 loss 3 = tensor(0.6819, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 7 iteration= 4 / 12 loss 4 = tensor(0.6921, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 7 iteration= 4 / 12 loss 5 = tensor(0.4648, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 7 iteration= 5 / 12 loss 0 = tensor(0.6934, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 7 iteration= 5 / 12 loss 1 = tensor(0.6905, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 7 iteration= 5 / 12 loss 2 = tensor(0.6700, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 7 iteration= 5 / 12 loss 3 = tensor(0.6852, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 7 iteration= 5 / 12 loss 4 = tensor(0.6736, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 7 iteration= 5 / 12 loss 5 = tensor(0.6068, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 7 iteration= 6 / 12 loss 0 = tensor(0.7048, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 7 iteration= 6 / 12 loss 1 = tensor(0.6927, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 7 iteration= 6 / 12 loss 2 = tensor(0.7149, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 7 iteration= 6 / 12 loss 3 = tensor(0.6759, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 7 iteration= 6 / 12 loss 4 = tensor(0.7262, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 7 iteration= 6 / 12 loss 5 = tensor(0.6367, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 7 iteration= 7 / 12 loss 0 = tensor(0.6891, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 7 iteration= 7 / 12 loss 1 = tensor(0.6936, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 7 iteration= 7 / 12 loss 2 = tensor(0.7394, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 7 iteration= 7 / 12 loss 3 = tensor(0.6738, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 7 iteration= 7 / 12 loss 4 = tensor(0.6742, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 7 iteration= 7 / 12 loss 5 = tensor(0.6483, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 7 iteration= 8 / 12 loss 0 = tensor(0.7029, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 7 iteration= 8 / 12 loss 1 = tensor(0.6856, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 7 iteration= 8 / 12 loss 2 = tensor(0.7291, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 7 iteration= 8 / 12 loss 3 = tensor(0.7116, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 7 iteration= 8 / 12 loss 4 = tensor(0.7261, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 7 iteration= 8 / 12 loss 5 = tensor(0.5556, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 7 iteration= 9 / 12 loss 0 = tensor(0.6883, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 7 iteration= 9 / 12 loss 1 = tensor(0.6877, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 7 iteration= 9 / 12 loss 2 = tensor(0.6930, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 7 iteration= 9 / 12 loss 3 = tensor(0.6730, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 7 iteration= 9 / 12 loss 4 = tensor(0.6289, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 7 iteration= 9 / 12 loss 5 = tensor(0.5901, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 7 iteration= 10 / 12 loss 0 = tensor(0.6938, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 7 iteration= 10 / 12 loss 1 = tensor(0.6876, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 7 iteration= 10 / 12 loss 2 = tensor(0.6780, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 7 iteration= 10 / 12 loss 3 = tensor(0.6974, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 7 iteration= 10 / 12 loss 4 = tensor(0.7243, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 7 iteration= 10 / 12 loss 5 = tensor(0.6447, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 7 iteration= 11 / 12 loss 0 = tensor(0.6939, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 7 iteration= 11 / 12 loss 1 = tensor(0.6931, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 7 iteration= 11 / 12 loss 2 = tensor(0.6703, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 7 iteration= 11 / 12 loss 3 = tensor(0.6884, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 7 iteration= 11 / 12 loss 4 = tensor(0.7141, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 7 iteration= 11 / 12 loss 5 = tensor(0.6237, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 7 iteration= 12 / 12 loss 0 = tensor(0.6885, device='cuda:0', grad_fn=<AddBackward0>)
+**********test on data_validation of attribute 0  start ************
+accuracy =  0.4166666666666667
+change of accuracy on data_train 0:
+0.5243055555555556
+0.5034722222222223
+0.5173611111111112
+0.4791666666666667
+0.5173611111111112
+0.5277777777777778
+0.4861111111111111
+change of accuracy on data_validation 0:
+0.4166666666666667
+0.5833333333333334
+0.4166666666666667
+0.5833333333333334
+0.4166666666666667
+0.4583333333333333
+0.4166666666666667
+**********test on data_validation of attribute 0  finished ************
+
+
+epoch= 7 iteration= 12 / 12 loss 1 = tensor(0.6892, device='cuda:0', grad_fn=<AddBackward0>)
+**********test on data_validation of attribute 1  start ************
+accuracy =  0.7083333333333334
+change of accuracy on data_train 1:
+0.5034722222222222
+0.517361111111111
+0.5069444444444445
+0.5
+0.4930555555555555
+0.5312500000000001
+0.5243055555555556
+change of accuracy on data_validation 1:
+0.625
+0.625
+0.625
+0.625
+0.6666666666666666
+0.6666666666666666
+0.7083333333333334
+**********test on data_validation of attribute 1  finished ************
+
+
+epoch= 7 iteration= 12 / 12 loss 2 = tensor(0.6917, device='cuda:0', grad_fn=<AddBackward0>)
+**********test on data_validation of attribute 2  start ************
+accuracy =  0.6666666666666666
+change of accuracy on data_train 2:
+0.46874999999999994
+0.5208333333333334
+0.4201388888888889
+0.4479166666666667
+0.4826388888888889
+0.5069444444444445
+0.53125
+change of accuracy on data_validation 2:
+0.625
+0.5
+0.375
+0.6666666666666666
+0.375
+0.375
+0.6666666666666666
+**********test on data_validation of attribute 2  finished ************
+
+
+epoch= 7 iteration= 12 / 12 loss 3 = tensor(0.6790, device='cuda:0', grad_fn=<AddBackward0>)
+**********test on data_validation of attribute 3  start ************
+accuracy =  0.4166666666666667
+change of accuracy on data_train 3:
+0.513888888888889
+0.4791666666666667
+0.5381944444444445
+0.4756944444444445
+0.5347222222222223
+0.5312500000000001
+0.5555555555555555
+change of accuracy on data_validation 3:
+0.5833333333333334
+0.4166666666666667
+0.5833333333333334
+0.4166666666666667
+0.4166666666666667
+0.4166666666666667
+0.4166666666666667
+**********test on data_validation of attribute 3  finished ************
+
+
+epoch= 7 iteration= 12 / 12 loss 4 = tensor(0.6720, device='cuda:0', grad_fn=<AddBackward0>)
+**********test on data_validation of attribute 4  start ************
+accuracy =  0.4583333333333333
+change of accuracy on data_train 4:
+0.4930555555555556
+0.5104166666666667
+0.4930555555555556
+0.4791666666666667
+0.5937499999999999
+0.5243055555555556
+0.5347222222222223
+change of accuracy on data_validation 4:
+0.4166666666666667
+0.4166666666666667
+0.5833333333333334
+0.4583333333333333
+0.5833333333333334
+0.5
+0.4583333333333333
+**********test on data_validation of attribute 4  finished ************
+
+
+epoch= 7 iteration= 12 / 12 loss 5 = tensor(0.6058, device='cuda:0', grad_fn=<AddBackward0>)
+**********test on data_validation of attribute 5  start ************
+accuracy =  0.75
+change of accuracy on data_train 5:
+0.4930555555555555
+0.5
+0.5729166666666666
+0.6284722222222222
+0.6666666666666666
+0.7222222222222222
+0.6944444444444445
+change of accuracy on data_validation 5:
+0.5
+0.5
+0.5833333333333334
+0.75
+0.7083333333333334
+0.7083333333333334
+0.75
+**********test on data_validation of attribute 5  finished ************
+
+
+
+
+epoch 6finished, changes of losses as following: 
+change of loss0 every epoch:
+tensor(8.0203, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(4.5101, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.3616, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.7582, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.6925, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.6956, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.6943, device='cuda:0', grad_fn=<DivBackward0>)
+change of loss1 every epoch:
+tensor(2.8156, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.7905, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.7093, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.6968, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.6907, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.6908, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.6906, device='cuda:0', grad_fn=<DivBackward0>)
+change of loss2 every epoch:
+tensor(3.9481, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.9885, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.8371, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.7811, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.7876, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.7158, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.6913, device='cuda:0', grad_fn=<DivBackward0>)
+change of loss3 every epoch:
+tensor(3.4799, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.0914, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.7556, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.7279, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.6927, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.6926, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.6869, device='cuda:0', grad_fn=<DivBackward0>)
+change of loss4 every epoch:
+tensor(2.5972, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.0614, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.7036, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.7020, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.6848, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.6868, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.6888, device='cuda:0', grad_fn=<DivBackward0>)
+change of loss5 every epoch:
+tensor(3.4843, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.2418, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.6914, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.6539, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.6493, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.5915, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.5828, device='cuda:0', grad_fn=<DivBackward0>)
+epoch= 8 iteration= 1 / 12 loss 0 = tensor(0.6952, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 8 iteration= 1 / 12 loss 1 = tensor(0.6867, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 8 iteration= 1 / 12 loss 2 = tensor(0.6673, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 8 iteration= 1 / 12 loss 3 = tensor(0.6937, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 8 iteration= 1 / 12 loss 4 = tensor(0.6622, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 8 iteration= 1 / 12 loss 5 = tensor(0.5683, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 8 iteration= 2 / 12 loss 0 = tensor(0.6934, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 8 iteration= 2 / 12 loss 1 = tensor(0.6892, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 8 iteration= 2 / 12 loss 2 = tensor(0.7126, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 8 iteration= 2 / 12 loss 3 = tensor(0.6809, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 8 iteration= 2 / 12 loss 4 = tensor(0.6380, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 8 iteration= 2 / 12 loss 5 = tensor(0.5105, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 8 iteration= 3 / 12 loss 0 = tensor(0.6803, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 8 iteration= 3 / 12 loss 1 = tensor(0.6881, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 8 iteration= 3 / 12 loss 2 = tensor(0.6811, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 8 iteration= 3 / 12 loss 3 = tensor(0.6857, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 8 iteration= 3 / 12 loss 4 = tensor(0.6698, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 8 iteration= 3 / 12 loss 5 = tensor(0.5665, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 8 iteration= 4 / 12 loss 0 = tensor(0.6840, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 8 iteration= 4 / 12 loss 1 = tensor(0.6850, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 8 iteration= 4 / 12 loss 2 = tensor(0.6441, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 8 iteration= 4 / 12 loss 3 = tensor(0.6828, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 8 iteration= 4 / 12 loss 4 = tensor(0.6767, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 8 iteration= 4 / 12 loss 5 = tensor(0.5933, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 8 iteration= 5 / 12 loss 0 = tensor(0.7080, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 8 iteration= 5 / 12 loss 1 = tensor(0.6929, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 8 iteration= 5 / 12 loss 2 = tensor(0.6933, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 8 iteration= 5 / 12 loss 3 = tensor(0.6852, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 8 iteration= 5 / 12 loss 4 = tensor(0.6990, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 8 iteration= 5 / 12 loss 5 = tensor(0.5166, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 8 iteration= 6 / 12 loss 0 = tensor(0.7196, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 8 iteration= 6 / 12 loss 1 = tensor(0.6901, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 8 iteration= 6 / 12 loss 2 = tensor(0.7877, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 8 iteration= 6 / 12 loss 3 = tensor(0.7127, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 8 iteration= 6 / 12 loss 4 = tensor(0.6914, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 8 iteration= 6 / 12 loss 5 = tensor(0.5452, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 8 iteration= 7 / 12 loss 0 = tensor(0.7074, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 8 iteration= 7 / 12 loss 1 = tensor(0.6926, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 8 iteration= 7 / 12 loss 2 = tensor(0.6508, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 8 iteration= 7 / 12 loss 3 = tensor(0.7404, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 8 iteration= 7 / 12 loss 4 = tensor(0.6693, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 8 iteration= 7 / 12 loss 5 = tensor(0.9330, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 8 iteration= 8 / 12 loss 0 = tensor(0.6827, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 8 iteration= 8 / 12 loss 1 = tensor(0.6907, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 8 iteration= 8 / 12 loss 2 = tensor(0.6575, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 8 iteration= 8 / 12 loss 3 = tensor(0.6853, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 8 iteration= 8 / 12 loss 4 = tensor(0.6807, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 8 iteration= 8 / 12 loss 5 = tensor(0.9165, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 8 iteration= 9 / 12 loss 0 = tensor(0.6840, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 8 iteration= 9 / 12 loss 1 = tensor(0.6941, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 8 iteration= 9 / 12 loss 2 = tensor(0.7200, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 8 iteration= 9 / 12 loss 3 = tensor(0.6602, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 8 iteration= 9 / 12 loss 4 = tensor(0.6608, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 8 iteration= 9 / 12 loss 5 = tensor(1.0375, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 8 iteration= 10 / 12 loss 0 = tensor(0.6756, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 8 iteration= 10 / 12 loss 1 = tensor(0.6951, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 8 iteration= 10 / 12 loss 2 = tensor(0.7150, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 8 iteration= 10 / 12 loss 3 = tensor(0.6894, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 8 iteration= 10 / 12 loss 4 = tensor(0.6854, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 8 iteration= 10 / 12 loss 5 = tensor(0.6139, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 8 iteration= 11 / 12 loss 0 = tensor(0.7125, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 8 iteration= 11 / 12 loss 1 = tensor(0.6881, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 8 iteration= 11 / 12 loss 2 = tensor(0.6584, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 8 iteration= 11 / 12 loss 3 = tensor(0.7166, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 8 iteration= 11 / 12 loss 4 = tensor(0.6812, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 8 iteration= 11 / 12 loss 5 = tensor(0.6453, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 8 iteration= 12 / 12 loss 0 = tensor(0.6861, device='cuda:0', grad_fn=<AddBackward0>)
+**********test on data_validation of attribute 0  start ************
+accuracy =  0.4166666666666667
+change of accuracy on data_train 0:
+0.5243055555555556
+0.5034722222222223
+0.5173611111111112
+0.4791666666666667
+0.5173611111111112
+0.5277777777777778
+0.4861111111111111
+0.5000000000000001
+change of accuracy on data_validation 0:
+0.4166666666666667
+0.5833333333333334
+0.4166666666666667
+0.5833333333333334
+0.4166666666666667
+0.4583333333333333
+0.4166666666666667
+0.4166666666666667
+**********test on data_validation of attribute 0  finished ************
+
+
+epoch= 8 iteration= 12 / 12 loss 1 = tensor(0.6918, device='cuda:0', grad_fn=<AddBackward0>)
+**********test on data_validation of attribute 1  start ************
+accuracy =  0.625
+change of accuracy on data_train 1:
+0.5034722222222222
+0.517361111111111
+0.5069444444444445
+0.5
+0.4930555555555555
+0.5312500000000001
+0.5243055555555556
+0.513888888888889
+change of accuracy on data_validation 1:
+0.625
+0.625
+0.625
+0.625
+0.6666666666666666
+0.6666666666666666
+0.7083333333333334
+0.625
+**********test on data_validation of attribute 1  finished ************
+
+
+epoch= 8 iteration= 12 / 12 loss 2 = tensor(0.7027, device='cuda:0', grad_fn=<AddBackward0>)
+**********test on data_validation of attribute 2  start ************
+accuracy =  0.625
+change of accuracy on data_train 2:
+0.46874999999999994
+0.5208333333333334
+0.4201388888888889
+0.4479166666666667
+0.4826388888888889
+0.5069444444444445
+0.53125
+0.5312500000000001
+change of accuracy on data_validation 2:
+0.625
+0.5
+0.375
+0.6666666666666666
+0.375
+0.375
+0.6666666666666666
+0.625
+**********test on data_validation of attribute 2  finished ************
+
+
+epoch= 8 iteration= 12 / 12 loss 3 = tensor(0.6885, device='cuda:0', grad_fn=<AddBackward0>)
+**********test on data_validation of attribute 3  start ************
+accuracy =  0.4166666666666667
+change of accuracy on data_train 3:
+0.513888888888889
+0.4791666666666667
+0.5381944444444445
+0.4756944444444445
+0.5347222222222223
+0.5312500000000001
+0.5555555555555555
+0.5208333333333334
+change of accuracy on data_validation 3:
+0.5833333333333334
+0.4166666666666667
+0.5833333333333334
+0.4166666666666667
+0.4166666666666667
+0.4166666666666667
+0.4166666666666667
+0.4166666666666667
+**********test on data_validation of attribute 3  finished ************
+
+
+epoch= 8 iteration= 12 / 12 loss 4 = tensor(0.6534, device='cuda:0', grad_fn=<AddBackward0>)
+**********test on data_validation of attribute 4  start ************
+accuracy =  0.5833333333333334
+change of accuracy on data_train 4:
+0.4930555555555556
+0.5104166666666667
+0.4930555555555556
+0.4791666666666667
+0.5937499999999999
+0.5243055555555556
+0.5347222222222223
+0.5868055555555555
+change of accuracy on data_validation 4:
+0.4166666666666667
+0.4166666666666667
+0.5833333333333334
+0.4583333333333333
+0.5833333333333334
+0.5
+0.4583333333333333
+0.5833333333333334
+**********test on data_validation of attribute 4  finished ************
+
+
+epoch= 8 iteration= 12 / 12 loss 5 = tensor(0.4849, device='cuda:0', grad_fn=<AddBackward0>)
+**********test on data_validation of attribute 5  start ************
+accuracy =  0.7083333333333334
+change of accuracy on data_train 5:
+0.4930555555555555
+0.5
+0.5729166666666666
+0.6284722222222222
+0.6666666666666666
+0.7222222222222222
+0.6944444444444445
+0.6493055555555555
+change of accuracy on data_validation 5:
+0.5
+0.5
+0.5833333333333334
+0.75
+0.7083333333333334
+0.7083333333333334
+0.75
+0.7083333333333334
+**********test on data_validation of attribute 5  finished ************
+
+
+
+
+epoch 7finished, changes of losses as following: 
+change of loss0 every epoch:
+tensor(8.0203, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(4.5101, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.3616, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.7582, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.6925, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.6956, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.6943, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.6941, device='cuda:0', grad_fn=<DivBackward0>)
+change of loss1 every epoch:
+tensor(2.8156, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.7905, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.7093, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.6968, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.6907, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.6908, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.6906, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.6904, device='cuda:0', grad_fn=<DivBackward0>)
+change of loss2 every epoch:
+tensor(3.9481, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.9885, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.8371, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.7811, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.7876, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.7158, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.6913, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.6909, device='cuda:0', grad_fn=<DivBackward0>)
+change of loss3 every epoch:
+tensor(3.4799, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.0914, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.7556, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.7279, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.6927, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.6926, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.6869, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.6935, device='cuda:0', grad_fn=<DivBackward0>)
+change of loss4 every epoch:
+tensor(2.5972, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.0614, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.7036, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.7020, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.6848, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.6868, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.6888, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.6723, device='cuda:0', grad_fn=<DivBackward0>)
+change of loss5 every epoch:
+tensor(3.4843, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.2418, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.6914, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.6539, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.6493, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.5915, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.5828, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.6610, device='cuda:0', grad_fn=<DivBackward0>)
+epoch= 9 iteration= 1 / 12 loss 0 = tensor(0.6749, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 9 iteration= 1 / 12 loss 1 = tensor(0.6966, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 9 iteration= 1 / 12 loss 2 = tensor(0.6802, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 9 iteration= 1 / 12 loss 3 = tensor(0.7128, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 9 iteration= 1 / 12 loss 4 = tensor(0.6851, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 9 iteration= 1 / 12 loss 5 = tensor(0.6165, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 9 iteration= 2 / 12 loss 0 = tensor(0.6803, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 9 iteration= 2 / 12 loss 1 = tensor(0.6902, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 9 iteration= 2 / 12 loss 2 = tensor(0.6878, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 9 iteration= 2 / 12 loss 3 = tensor(0.6919, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 9 iteration= 2 / 12 loss 4 = tensor(0.6782, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 9 iteration= 2 / 12 loss 5 = tensor(0.8445, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 9 iteration= 3 / 12 loss 0 = tensor(0.6830, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 9 iteration= 3 / 12 loss 1 = tensor(0.6895, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 9 iteration= 3 / 12 loss 2 = tensor(0.7354, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 9 iteration= 3 / 12 loss 3 = tensor(0.7089, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 9 iteration= 3 / 12 loss 4 = tensor(0.6912, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 9 iteration= 3 / 12 loss 5 = tensor(0.8351, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 9 iteration= 4 / 12 loss 0 = tensor(0.7091, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 9 iteration= 4 / 12 loss 1 = tensor(0.6879, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 9 iteration= 4 / 12 loss 2 = tensor(0.7290, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 9 iteration= 4 / 12 loss 3 = tensor(0.6696, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 9 iteration= 4 / 12 loss 4 = tensor(0.6787, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 9 iteration= 4 / 12 loss 5 = tensor(0.5502, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 9 iteration= 5 / 12 loss 0 = tensor(0.6672, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 9 iteration= 5 / 12 loss 1 = tensor(0.6813, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 9 iteration= 5 / 12 loss 2 = tensor(0.7009, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 9 iteration= 5 / 12 loss 3 = tensor(0.6526, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 9 iteration= 5 / 12 loss 4 = tensor(0.6667, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 9 iteration= 5 / 12 loss 5 = tensor(0.5282, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 9 iteration= 6 / 12 loss 0 = tensor(0.7083, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 9 iteration= 6 / 12 loss 1 = tensor(0.6844, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 9 iteration= 6 / 12 loss 2 = tensor(0.6853, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 9 iteration= 6 / 12 loss 3 = tensor(0.7130, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 9 iteration= 6 / 12 loss 4 = tensor(0.6351, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 9 iteration= 6 / 12 loss 5 = tensor(0.7664, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 9 iteration= 7 / 12 loss 0 = tensor(0.6830, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 9 iteration= 7 / 12 loss 1 = tensor(0.6888, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 9 iteration= 7 / 12 loss 2 = tensor(0.6864, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 9 iteration= 7 / 12 loss 3 = tensor(0.6768, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 9 iteration= 7 / 12 loss 4 = tensor(0.6825, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 9 iteration= 7 / 12 loss 5 = tensor(0.5779, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 9 iteration= 8 / 12 loss 0 = tensor(0.6882, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 9 iteration= 8 / 12 loss 1 = tensor(0.6854, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 9 iteration= 8 / 12 loss 2 = tensor(0.7734, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 9 iteration= 8 / 12 loss 3 = tensor(0.6751, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 9 iteration= 8 / 12 loss 4 = tensor(0.6527, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 9 iteration= 8 / 12 loss 5 = tensor(0.5845, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 9 iteration= 9 / 12 loss 0 = tensor(0.7050, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 9 iteration= 9 / 12 loss 1 = tensor(0.6869, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 9 iteration= 9 / 12 loss 2 = tensor(0.5727, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 9 iteration= 9 / 12 loss 3 = tensor(0.6971, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 9 iteration= 9 / 12 loss 4 = tensor(0.6607, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 9 iteration= 9 / 12 loss 5 = tensor(0.4583, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 9 iteration= 10 / 12 loss 0 = tensor(0.6911, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 9 iteration= 10 / 12 loss 1 = tensor(0.6911, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 9 iteration= 10 / 12 loss 2 = tensor(0.6241, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 9 iteration= 10 / 12 loss 3 = tensor(0.6822, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 9 iteration= 10 / 12 loss 4 = tensor(0.6788, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 9 iteration= 10 / 12 loss 5 = tensor(0.5064, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 9 iteration= 11 / 12 loss 0 = tensor(0.6963, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 9 iteration= 11 / 12 loss 1 = tensor(0.7004, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 9 iteration= 11 / 12 loss 2 = tensor(0.7750, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 9 iteration= 11 / 12 loss 3 = tensor(0.6845, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 9 iteration= 11 / 12 loss 4 = tensor(0.6683, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 9 iteration= 11 / 12 loss 5 = tensor(0.4964, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 9 iteration= 12 / 12 loss 0 = tensor(0.7001, device='cuda:0', grad_fn=<AddBackward0>)
+**********test on data_validation of attribute 0  start ************
+accuracy =  0.4583333333333333
+change of accuracy on data_train 0:
+0.5243055555555556
+0.5034722222222223
+0.5173611111111112
+0.4791666666666667
+0.5173611111111112
+0.5277777777777778
+0.4861111111111111
+0.5000000000000001
+0.513888888888889
+change of accuracy on data_validation 0:
+0.4166666666666667
+0.5833333333333334
+0.4166666666666667
+0.5833333333333334
+0.4166666666666667
+0.4583333333333333
+0.4166666666666667
+0.4166666666666667
+0.4583333333333333
+**********test on data_validation of attribute 0  finished ************
+
+
+epoch= 9 iteration= 12 / 12 loss 1 = tensor(0.6846, device='cuda:0', grad_fn=<AddBackward0>)
+**********test on data_validation of attribute 1  start ************
+accuracy =  0.75
+change of accuracy on data_train 1:
+0.5034722222222222
+0.517361111111111
+0.5069444444444445
+0.5
+0.4930555555555555
+0.5312500000000001
+0.5243055555555556
+0.513888888888889
+0.5277777777777778
+change of accuracy on data_validation 1:
+0.625
+0.625
+0.625
+0.625
+0.6666666666666666
+0.6666666666666666
+0.7083333333333334
+0.625
+0.75
+**********test on data_validation of attribute 1  finished ************
+
+
+epoch= 9 iteration= 12 / 12 loss 2 = tensor(0.6653, device='cuda:0', grad_fn=<AddBackward0>)
+**********test on data_validation of attribute 2  start ************
+accuracy =  0.375
+change of accuracy on data_train 2:
+0.46874999999999994
+0.5208333333333334
+0.4201388888888889
+0.4479166666666667
+0.4826388888888889
+0.5069444444444445
+0.53125
+0.5312500000000001
+0.5625000000000001
+change of accuracy on data_validation 2:
+0.625
+0.5
+0.375
+0.6666666666666666
+0.375
+0.375
+0.6666666666666666
+0.625
+0.375
+**********test on data_validation of attribute 2  finished ************
+
+
+epoch= 9 iteration= 12 / 12 loss 3 = tensor(0.6796, device='cuda:0', grad_fn=<AddBackward0>)
+**********test on data_validation of attribute 3  start ************
+accuracy =  0.4166666666666667
+change of accuracy on data_train 3:
+0.513888888888889
+0.4791666666666667
+0.5381944444444445
+0.4756944444444445
+0.5347222222222223
+0.5312500000000001
+0.5555555555555555
+0.5208333333333334
+0.548611111111111
+change of accuracy on data_validation 3:
+0.5833333333333334
+0.4166666666666667
+0.5833333333333334
+0.4166666666666667
+0.4166666666666667
+0.4166666666666667
+0.4166666666666667
+0.4166666666666667
+0.4166666666666667
+**********test on data_validation of attribute 3  finished ************
+
+
+epoch= 9 iteration= 12 / 12 loss 4 = tensor(0.6746, device='cuda:0', grad_fn=<AddBackward0>)
+**********test on data_validation of attribute 4  start ************
+accuracy =  0.5416666666666666
+change of accuracy on data_train 4:
+0.4930555555555556
+0.5104166666666667
+0.4930555555555556
+0.4791666666666667
+0.5937499999999999
+0.5243055555555556
+0.5347222222222223
+0.5868055555555555
+0.5902777777777778
+change of accuracy on data_validation 4:
+0.4166666666666667
+0.4166666666666667
+0.5833333333333334
+0.4583333333333333
+0.5833333333333334
+0.5
+0.4583333333333333
+0.5833333333333334
+0.5416666666666666
+**********test on data_validation of attribute 4  finished ************
+
+
+epoch= 9 iteration= 12 / 12 loss 5 = tensor(0.5276, device='cuda:0', grad_fn=<AddBackward0>)
+**********test on data_validation of attribute 5  start ************
+accuracy =  0.5833333333333334
+change of accuracy on data_train 5:
+0.4930555555555555
+0.5
+0.5729166666666666
+0.6284722222222222
+0.6666666666666666
+0.7222222222222222
+0.6944444444444445
+0.6493055555555555
+0.6875
+change of accuracy on data_validation 5:
+0.5
+0.5
+0.5833333333333334
+0.75
+0.7083333333333334
+0.7083333333333334
+0.75
+0.7083333333333334
+0.5833333333333334
+**********test on data_validation of attribute 5  finished ************
+
+
+
+
+epoch 8finished, changes of losses as following: 
+change of loss0 every epoch:
+tensor(8.0203, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(4.5101, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.3616, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.7582, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.6925, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.6956, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.6943, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.6941, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.6905, device='cuda:0', grad_fn=<DivBackward0>)
+change of loss1 every epoch:
+tensor(2.8156, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.7905, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.7093, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.6968, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.6907, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.6908, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.6906, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.6904, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.6889, device='cuda:0', grad_fn=<DivBackward0>)
+change of loss2 every epoch:
+tensor(3.9481, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.9885, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.8371, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.7811, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.7876, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.7158, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.6913, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.6909, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.6930, device='cuda:0', grad_fn=<DivBackward0>)
+change of loss3 every epoch:
+tensor(3.4799, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.0914, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.7556, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.7279, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.6927, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.6926, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.6869, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.6935, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.6870, device='cuda:0', grad_fn=<DivBackward0>)
+change of loss4 every epoch:
+tensor(2.5972, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.0614, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.7036, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.7020, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.6848, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.6868, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.6888, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.6723, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.6711, device='cuda:0', grad_fn=<DivBackward0>)
+change of loss5 every epoch:
+tensor(3.4843, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.2418, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.6914, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.6539, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.6493, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.5915, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.5828, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.6610, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.6077, device='cuda:0', grad_fn=<DivBackward0>)
+epoch= 10 iteration= 1 / 12 loss 0 = tensor(0.6912, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 10 iteration= 1 / 12 loss 1 = tensor(0.6799, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 10 iteration= 1 / 12 loss 2 = tensor(0.6271, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 10 iteration= 1 / 12 loss 3 = tensor(0.6975, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 10 iteration= 1 / 12 loss 4 = tensor(0.6484, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 10 iteration= 1 / 12 loss 5 = tensor(0.4655, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 10 iteration= 2 / 12 loss 0 = tensor(0.6936, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 10 iteration= 2 / 12 loss 1 = tensor(0.6884, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 10 iteration= 2 / 12 loss 2 = tensor(0.6418, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 10 iteration= 2 / 12 loss 3 = tensor(0.6953, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 10 iteration= 2 / 12 loss 4 = tensor(0.6809, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 10 iteration= 2 / 12 loss 5 = tensor(0.5410, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 10 iteration= 3 / 12 loss 0 = tensor(0.6831, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 10 iteration= 3 / 12 loss 1 = tensor(0.6877, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 10 iteration= 3 / 12 loss 2 = tensor(0.6919, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 10 iteration= 3 / 12 loss 3 = tensor(0.6863, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 10 iteration= 3 / 12 loss 4 = tensor(0.6665, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 10 iteration= 3 / 12 loss 5 = tensor(0.5547, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 10 iteration= 4 / 12 loss 0 = tensor(0.6894, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 10 iteration= 4 / 12 loss 1 = tensor(0.6899, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 10 iteration= 4 / 12 loss 2 = tensor(0.6627, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 10 iteration= 4 / 12 loss 3 = tensor(0.6956, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 10 iteration= 4 / 12 loss 4 = tensor(0.6509, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 10 iteration= 4 / 12 loss 5 = tensor(0.5614, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 10 iteration= 5 / 12 loss 0 = tensor(0.6907, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 10 iteration= 5 / 12 loss 1 = tensor(0.6853, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 10 iteration= 5 / 12 loss 2 = tensor(0.6727, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 10 iteration= 5 / 12 loss 3 = tensor(0.6843, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 10 iteration= 5 / 12 loss 4 = tensor(0.6414, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 10 iteration= 5 / 12 loss 5 = tensor(0.6359, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 10 iteration= 6 / 12 loss 0 = tensor(0.6916, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 10 iteration= 6 / 12 loss 1 = tensor(0.6871, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 10 iteration= 6 / 12 loss 2 = tensor(0.6680, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 10 iteration= 6 / 12 loss 3 = tensor(0.7125, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 10 iteration= 6 / 12 loss 4 = tensor(0.6516, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 10 iteration= 6 / 12 loss 5 = tensor(0.5037, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 10 iteration= 7 / 12 loss 0 = tensor(0.6865, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 10 iteration= 7 / 12 loss 1 = tensor(0.7079, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 10 iteration= 7 / 12 loss 2 = tensor(0.6573, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 10 iteration= 7 / 12 loss 3 = tensor(0.6716, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 10 iteration= 7 / 12 loss 4 = tensor(0.6745, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 10 iteration= 7 / 12 loss 5 = tensor(0.4962, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 10 iteration= 8 / 12 loss 0 = tensor(0.6864, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 10 iteration= 8 / 12 loss 1 = tensor(0.6849, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 10 iteration= 8 / 12 loss 2 = tensor(0.7524, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 10 iteration= 8 / 12 loss 3 = tensor(0.6744, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 10 iteration= 8 / 12 loss 4 = tensor(0.6691, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 10 iteration= 8 / 12 loss 5 = tensor(0.4172, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 10 iteration= 9 / 12 loss 0 = tensor(0.6909, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 10 iteration= 9 / 12 loss 1 = tensor(0.6893, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 10 iteration= 9 / 12 loss 2 = tensor(0.7286, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 10 iteration= 9 / 12 loss 3 = tensor(0.6964, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 10 iteration= 9 / 12 loss 4 = tensor(0.6510, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 10 iteration= 9 / 12 loss 5 = tensor(0.5550, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 10 iteration= 10 / 12 loss 0 = tensor(0.6867, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 10 iteration= 10 / 12 loss 1 = tensor(0.6744, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 10 iteration= 10 / 12 loss 2 = tensor(0.6530, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 10 iteration= 10 / 12 loss 3 = tensor(0.6773, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 10 iteration= 10 / 12 loss 4 = tensor(0.6280, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 10 iteration= 10 / 12 loss 5 = tensor(0.5447, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 10 iteration= 11 / 12 loss 0 = tensor(0.6855, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 10 iteration= 11 / 12 loss 1 = tensor(0.6845, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 10 iteration= 11 / 12 loss 2 = tensor(0.6754, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 10 iteration= 11 / 12 loss 3 = tensor(0.6703, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 10 iteration= 11 / 12 loss 4 = tensor(0.6500, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 10 iteration= 11 / 12 loss 5 = tensor(0.6097, device='cuda:0', grad_fn=<AddBackward0>)
+epoch= 10 iteration= 12 / 12 loss 0 = tensor(0.6907, device='cuda:0', grad_fn=<AddBackward0>)
+**********test on data_validation of attribute 0  start ************
+accuracy =  0.375
+change of accuracy on data_train 0:
+0.5243055555555556
+0.5034722222222223
+0.5173611111111112
+0.4791666666666667
+0.5173611111111112
+0.5277777777777778
+0.4861111111111111
+0.5000000000000001
+0.513888888888889
+0.5659722222222222
+change of accuracy on data_validation 0:
+0.4166666666666667
+0.5833333333333334
+0.4166666666666667
+0.5833333333333334
+0.4166666666666667
+0.4583333333333333
+0.4166666666666667
+0.4166666666666667
+0.4583333333333333
+0.375
+**********test on data_validation of attribute 0  finished ************
+
+
+epoch= 10 iteration= 12 / 12 loss 1 = tensor(0.6952, device='cuda:0', grad_fn=<AddBackward0>)
+**********test on data_validation of attribute 1  start ************
+accuracy =  0.625
+change of accuracy on data_train 1:
+0.5034722222222222
+0.517361111111111
+0.5069444444444445
+0.5
+0.4930555555555555
+0.5312500000000001
+0.5243055555555556
+0.513888888888889
+0.5277777777777778
+0.5208333333333334
+change of accuracy on data_validation 1:
+0.625
+0.625
+0.625
+0.625
+0.6666666666666666
+0.6666666666666666
+0.7083333333333334
+0.625
+0.75
+0.625
+**********test on data_validation of attribute 1  finished ************
+
+
+epoch= 10 iteration= 12 / 12 loss 2 = tensor(0.6514, device='cuda:0', grad_fn=<AddBackward0>)
+**********test on data_validation of attribute 2  start ************
+accuracy =  0.375
+change of accuracy on data_train 2:
+0.46874999999999994
+0.5208333333333334
+0.4201388888888889
+0.4479166666666667
+0.4826388888888889
+0.5069444444444445
+0.53125
+0.5312500000000001
+0.5625000000000001
+0.5729166666666666
+change of accuracy on data_validation 2:
+0.625
+0.5
+0.375
+0.6666666666666666
+0.375
+0.375
+0.6666666666666666
+0.625
+0.375
+0.375
+**********test on data_validation of attribute 2  finished ************
+
+
+epoch= 10 iteration= 12 / 12 loss 3 = tensor(0.6788, device='cuda:0', grad_fn=<AddBackward0>)
+**********test on data_validation of attribute 3  start ************
+accuracy =  0.4166666666666667
+change of accuracy on data_train 3:
+0.513888888888889
+0.4791666666666667
+0.5381944444444445
+0.4756944444444445
+0.5347222222222223
+0.5312500000000001
+0.5555555555555555
+0.5208333333333334
+0.548611111111111
+0.5381944444444443
+change of accuracy on data_validation 3:
+0.5833333333333334
+0.4166666666666667
+0.5833333333333334
+0.4166666666666667
+0.4166666666666667
+0.4166666666666667
+0.4166666666666667
+0.4166666666666667
+0.4166666666666667
+0.4166666666666667
+**********test on data_validation of attribute 3  finished ************
+
+
+epoch= 10 iteration= 12 / 12 loss 4 = tensor(0.6277, device='cuda:0', grad_fn=<AddBackward0>)
+**********test on data_validation of attribute 4  start ************
+accuracy =  0.375
+change of accuracy on data_train 4:
+0.4930555555555556
+0.5104166666666667
+0.4930555555555556
+0.4791666666666667
+0.5937499999999999
+0.5243055555555556
+0.5347222222222223
+0.5868055555555555
+0.5902777777777778
+0.71875
+change of accuracy on data_validation 4:
+0.4166666666666667
+0.4166666666666667
+0.5833333333333334
+0.4583333333333333
+0.5833333333333334
+0.5
+0.4583333333333333
+0.5833333333333334
+0.5416666666666666
+0.375
+**********test on data_validation of attribute 4  finished ************
+
+
+epoch= 10 iteration= 12 / 12 loss 5 = tensor(0.5199, device='cuda:0', grad_fn=<AddBackward0>)
+**********test on data_validation of attribute 5  start ************
+accuracy =  0.75
+change of accuracy on data_train 5:
+0.4930555555555555
+0.5
+0.5729166666666666
+0.6284722222222222
+0.6666666666666666
+0.7222222222222222
+0.6944444444444445
+0.6493055555555555
+0.6875
+0.7465277777777777
+change of accuracy on data_validation 5:
+0.5
+0.5
+0.5833333333333334
+0.75
+0.7083333333333334
+0.7083333333333334
+0.75
+0.7083333333333334
+0.5833333333333334
+0.75
+**********test on data_validation of attribute 5  finished ************
+
+
+
+
+epoch 9finished, changes of losses as following: 
+change of loss0 every epoch:
+tensor(8.0203, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(4.5101, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.3616, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.7582, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.6925, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.6956, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.6943, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.6941, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.6905, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.6889, device='cuda:0', grad_fn=<DivBackward0>)
+change of loss1 every epoch:
+tensor(2.8156, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.7905, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.7093, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.6968, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.6907, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.6908, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.6906, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.6904, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.6889, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.6879, device='cuda:0', grad_fn=<DivBackward0>)
+change of loss2 every epoch:
+tensor(3.9481, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.9885, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.8371, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.7811, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.7876, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.7158, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.6913, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.6909, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.6930, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.6735, device='cuda:0', grad_fn=<DivBackward0>)
+change of loss3 every epoch:
+tensor(3.4799, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.0914, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.7556, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.7279, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.6927, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.6926, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.6869, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.6935, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.6870, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.6867, device='cuda:0', grad_fn=<DivBackward0>)
+change of loss4 every epoch:
+tensor(2.5972, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.0614, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.7036, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.7020, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.6848, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.6868, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.6888, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.6723, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.6711, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.6533, device='cuda:0', grad_fn=<DivBackward0>)
+change of loss5 every epoch:
+tensor(3.4843, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.2418, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.6914, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.6539, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.6493, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.5915, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.5828, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.6610, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.6077, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(0.5337, device='cuda:0', grad_fn=<DivBackward0>)
+
+
+**********test on data_test of attribute 0  start ************
+1 / 7
+accuracy on data_test of attribtue 0 : 0.5238095238095238
+
+
+**********test on data_test of attribute 1  start ************
+1 / 7
+accuracy on data_test of attribtue 1 : 0.45833333333333337
+
+
+**********test on data_test of attribute 2  start ************
+1 / 7
+accuracy on data_test of attribtue 2 : 0.48809523809523814
+
+
+**********test on data_test of attribute 3  start ************
+1 / 7
+accuracy on data_test of attribtue 3 : 0.5357142857142857
+
+
+**********test on data_test of attribute 4  start ************
+1 / 7
+accuracy on data_test of attribtue 4 : 0.45238095238095244
+
+
+**********test on data_test of attribute 5  start ************
+1 / 7
+accuracy on data_test of attribtue 5 : 0.47023809523809523
