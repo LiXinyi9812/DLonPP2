@@ -63,7 +63,8 @@ cd $SCRATCHDIR
 ```
 ### Run code on liger
 #### Prepare `run.py` and `job.sl`
-On your host computer prepare `run.py` and `job.sl`. Add `#!/usr/bin/env python3` at the beginning of `run.py`.
+On your host computer prepare `run.py` and `job.sl`. Add `#!/usr/bin/env python3` at the beginning of `run.py`. 
+
 Refer to the following `job.sl` template to create a `job.sl`.
 ```
 #!/bin/bash
