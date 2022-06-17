@@ -195,7 +195,7 @@ ENTRYPOINT [ "bash" ]
 
 ### Using customized dockerfile to build an image
 ```
-docker build -t [imagename] --file Dockerfile-fat
+docker build -t [imagename] --file Dockerfile-fat .
 ```
 Check your image
 ```
