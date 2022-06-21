@@ -91,10 +91,12 @@ module purge
 module load singularity
 
 # bind and run your program in the container
-singularity exec --nv -B ./:/workspace/shared \
+singularity exec --nv -B ./: /workspace/shared \
 /scratch/arvgxwnfe/DRAMAinPT/pytorch-dramainpt.sif python3 /workspace/shared/DRAMAinPT_final.py
 ```
 Note that the volume(It allows the host to share its own file system with the container) `/workspace/shared` in container is bind with the folder where `CelebA.py` is.
+`-B` means bind. In this example, the host directory `./` in liger will be mounted as `/workspace/shared` in the container. Then use `/scratch/arvgxwnfe/DRAMAinPT/pytorch-dramainpt.sif` container, let `python3` be the compiler and run `/workspace/shared/DRAMAinPT_final.py`.
+
 
 #### Transfer `run.py` and `job.sl` to liger
 Go to where these two files are:
