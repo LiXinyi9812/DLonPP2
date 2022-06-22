@@ -161,6 +161,13 @@ Enter edit mode
 sinfo -o "%20N  %10c  %10m  %25f  %10G "
 ```
 
+### Get real-time insight on used GPU
+```
+ssh turining04
+watch -n 5 nvidia-smi
+```
+Use `ctrl+c` to quit.
+
 ## Customize an image
 In order to run code on liger, we have to make an image of the environment configuration of `run.py` and send it to liger.
 ### Obtain requirements.txt file in conda environment
