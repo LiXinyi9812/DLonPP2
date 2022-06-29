@@ -299,7 +299,7 @@ docker image ls
 docker run -d \
 -it \
 --name [container_name] \
--v "$(pwd)"/target:/app \
+-v "$(pwd)":/app \
 [image_name]
 ```
 
