@@ -294,6 +294,15 @@ The tar file can be finded in current folder.
 ```
 docker image ls
 ```
+### Bind current folder to container
+```
+docker run -d \
+-it \
+--name [container_name] \
+-v "$(pwd)"/target:/app \
+[image_name]
+```
+
 ### Run file(used for debug locally)
 ```
 docker run -it --rm -v "$(pwd)":/workspace/shared gitlab-registry.in2p3.fr/ecn-collaborations/liger-ai-tools/tensorflow-2.6.1-fat
