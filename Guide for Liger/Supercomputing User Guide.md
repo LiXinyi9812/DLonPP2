@@ -254,6 +254,13 @@ You may want move the image to a backed-up partition, like `$DATADIR`:
 mv $SCRATCHDIR/[imagename].sif $DATADIR/<LIPID>
 ```
 
+### Revise the singularity directly on liger
+```
+module load singularity
+singularity shell --nv --writable-tmpfs [singularity_path]
+python -m pip install [package_name]
+```
+
 ## Use an existed image
 There are some available image provided by ECN. If one of the images suits your `run.py`, you can use it directly instead of creating dockerfile by yourself.
 
