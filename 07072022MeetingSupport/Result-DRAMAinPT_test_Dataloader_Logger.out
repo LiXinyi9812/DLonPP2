@@ -1,0 +1,28 @@
+Logs saved in ./output/2022_07_06__18_55_46/logs.txt
+--------------------------star loading data-----------------------------------
+--------------------------finish loading data-----------------------------------
+safe (number of comparison): 440758
+safe (train number of comparison): 262678
+safe (val number of comparison): 23857
+safe (test number of comparison): 154225
+lively (number of comparison): 318958
+lively (train number of comparison): 190126
+lively (val number of comparison): 17233
+lively (test number of comparison): 111601
+beautiful (number of comparison): 189539
+beautiful (train number of comparison): 112979
+beautiful (val number of comparison): 10225
+beautiful (test number of comparison): 66337
+wealthy (number of comparison): 149799
+wealthy (train number of comparison): 89271
+wealthy (val number of comparison): 8113
+wealthy (test number of comparison): 52417
+depressing (number of comparison): 124257
+depressing (train number of comparison): 74049
+depressing (val number of comparison): 6721
+depressing (test number of comparison): 43489
+boring (number of comparison): 119681
+boring (train number of comparison): 71345
+boring (val number of comparison): 6481
+boring (test number of comparison): 41857
+max_iterations 5472
