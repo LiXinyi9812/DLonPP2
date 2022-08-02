@@ -20,8 +20,6 @@ from pp2_dataset import PP2Dataset, PP2HDF5Dataset
 from torch.utils import tensorboard as tb
 from model import create_DRAMA,get_vgg_backbone,fusion_net,get_backbone,get_alexnet_backbone
 import utils
-from memory_profiler import profile as profile_cpu
-from line_profiler import LineProfiler
 from torch.profiler import profile, record_function, ProfilerActivity
 
 
@@ -64,10 +62,7 @@ def get_args_parser():
                         help='Save a checkpoint every `checkpoint-freq` epochs')
     parser.add_argument('--output-dir', default='./output_e2_lr_unfreeze', help='path where to save')
     parser.add_argument('--name', default='', help="Prefix name for the output dir (default: '')")
-    parser.add_argument('--resume', default=['/scratch/arvgxwnfe/DRAMAinPT/output/2022_07_18__14_23_35/model_0_safe.pt',
-'/scratch/arvgxwnfe/DRAMAinPT/output/2022_07_18__14_23_35/model_0_lively.pt','/scratch/arvgxwnfe/DRAMAinPT/output/2022_07_18__14_23_35/model_0_beautiful.pt',
-'/scratch/arvgxwnfe/DRAMAinPT/output/2022_07_18__14_23_35/model_0_wealthy.pt','/scratch/arvgxwnfe/DRAMAinPT/output/2022_07_18__14_23_35/model_0_depressing.pt',
-'/scratch/arvgxwnfe/DRAMAinPT/output/2022_07_18__14_23_35/model_0_boring.pt'],
+    parser.add_argument('--resume', default=None,
                         help='resume from checkpoint')  # TODO: change help message when resume is implemented
     parser.add_argument('--backbone-trainable-layers', default=5, type=int,
                          help='number of trainable layers of backbone. (alexnet: 0 or 1; resnet: between 0 and 3)')
@@ -103,23 +98,6 @@ def time_elapsed(start):
     elapsed = time.time() - start
     elapsed_str = str(datetime.timedelta(seconds=int(elapsed)))
     return elapsed_str
-
-#profiler_time = LineProfiler()
-# def profile(func):
-#     def inner(*args, **kwargs):
-#         profiler_time.add_function(func)
-#         profiler_time.enable_by_count()
-#         return func(*args, **kwargs)
-#     return inner
-# def print_stats():
-#     profiler_time.print_stats()
-
-# def csv2data(csv_path,dataframe,image_dir):
-#     csv_reader = np.loadtxt(csv_path, delimiter='\t', dtype=str)
-#     for row in csv_reader:
-#         dataframe.append({'dir':[image_dir+str(row[2])+'.JPG', image_dir+str(row[3])+'.JPG'],\
-#              'label':0 if row[1]=='left' else 1})
-#     return dataframe
 
 
 def get(args):
@@ -185,16 +163,7 @@ def evaluate_accuracy(x,y):
     accuracy = correct / n
     return accuracy
 
-#preprocess data
-# renameIMG.rename(image_dir)
-# csv_split.splitAtt(csv_path,csv_dir)
-#
-# test_rate = 0.35
-# val_rate =  0.05/0.6
-# for att in ['safe','lively','beautiful','wealthy','depressing','boring']:
-#     csv_split.splitTVT(csv_dir+str(att)+'.csv', att, test_rate, val_rate,csv_dir,batch_size)
 
-#@profiler_time
 def main(args):
     # Output dir
     dic = {0: 'safe', 1: 'lively', 2: 'beautiful', 3: 'wealthy', 4: 'depressing', 5: 'boring'}
@@ -297,12 +266,12 @@ def main(args):
         logger.info('Start training for {} epochs'.format(args.epochs))
         train(max_iterations,args, n_iter,criterion, data_loader_train_final, data_loader_test, data_loader_val,
               device, logger, model_vgg, model_drama,optimizer_vgg, optimizer_drama, lr_scheduler_vgg, lr_scheduler_drama, tb_writer)
-    #print_stats()
 
 
 
 
-#@profiler_time
+
+
 def train(max_iterations,args, n_iter,criterion, data_loader_train_final, data_loader_test, data_loader_val,
           device, logger, model_vgg, model_drama,optimizer_vgg, optimizer_drama, lr_scheduler_vgg, lr_scheduler_drama, tb_writer):
     start_time = time.time()
@@ -376,7 +345,7 @@ def train(max_iterations,args, n_iter,criterion, data_loader_train_final, data_l
             logger.info('[Epoch {}] Checkpoint saved'.format(epoch))
 
     logger.info('Training time (total) {}'.format(time_elapsed(start_time)))
-    #print_stats()
+
 
 @torch.no_grad()
 def evaluate(dic,k,model_vgg, model_drama, criterion, data_loader, device, log_freq,header):
@@ -409,8 +378,7 @@ def evaluate(dic,k,model_vgg, model_drama, criterion, data_loader, device, log_f
     logger.info(header + ' ' + str(metric_logger))
     return total_loss / n_samples, metric_logger.meters['acc_{}'.format(dic[k])].global_avg
 
-#profile_cpu
-#@profiler_time
+
 def train_one_attribute(k,d,device,model_vgg,model_drama,optimizer_vgg,optimizer_drama,
                         criterion,logger,metric_logger,tb_writer,profiler,n_iter,n_iter_profiling,dic):
     img1, img2, target = d
@@ -439,13 +407,10 @@ def train_one_attribute(k,d,device,model_vgg,model_drama,optimizer_vgg,optimizer
         profiler.step()
         #if n_iter >= n_iter_profiling:
         #   break
-    #print_stats()
     k = k+1
     return k
 
 
-#@profile_cpu
-#@profiler_time
 def train_one_iteration(epoch,n_iter,d0,d1,d2,d3,d4,d5,device,optimizer_drama,optimizer_vgg,lr_scheduler_vgg,lr_scheduler_drama,
                         model_vgg,model_drama,criterion,logger, metric_logger,tb_writer,n_iter_profiling,profiler,dic):
     n_iter += 1
@@ -500,11 +465,9 @@ def train_one_iteration(epoch,n_iter,d0,d1,d2,d3,d4,d5,device,optimizer_drama,op
         torch.save(cp, os.path.join(args.output_dir, 'model_{}_{}.pt'.format(epoch,n_iter)))
         logger.info('[Epoch {}_{}] Checkpoint saved'.format(epoch,n_iter))
 
-    #print_stats()
     return n_iter
 
 
-#@profiler_time
 def train_one_epoch(max_iterations,model_vgg,model_drama,  optimizer_vgg, optimizer_drama, lr_scheduler_vgg,lr_scheduler_drama,criterion, data_loader_train_final, device, epoch,
                     n_iter, tb_writer, log_freq, dic,profiler=None,n_iter_profiling=None):
     logger = logging.getLogger('trainer')
