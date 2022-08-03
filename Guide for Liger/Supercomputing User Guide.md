@@ -271,6 +271,7 @@ docker pull gitlab-registry.in2p3.fr/ecn-collaborations/liger-ai-tools/tensorflo
 Start a container instance on the base image
 ```
 docker run --name [container_name] -idt [image_name]
+docker run --name [container_name] --gpus all -t [image_name]
 ```
 or run it directly in Docker application.
 
