@@ -548,7 +548,7 @@ def evaluate(k, extractor_vis, extractor_sem, model_drama, model_info,
             metric_logger.meters['{}_{}'.format(name,k)].update(l.item(), n=batch_size)
 
         #sum losses
-        loss = loss_vis + args.beta * loss_sem
+        loss = (1-args.beta)*loss_vis + args.beta * loss_sem
         metric_logger.meters['loss_{}'.format(k)].update(loss.item(), n=batch_size)
 
     metric_logger.synchronize_between_processes()
@@ -556,7 +556,7 @@ def evaluate(k, extractor_vis, extractor_sem, model_drama, model_info,
 
     vis_loss_av = total_vis_loss / n_samples
     sem_loss_av = total_sem_loss / n_samples
-    loss_av = vis_loss_av + args.beta * sem_loss_av
+    loss_av = (1-args.beta)*loss_vis + args.beta * loss_sem
 
     return loss_av, metric_logger.meters['acc_vis_{}'.format(k)].global_avg
 
@@ -592,7 +592,7 @@ def train_one_attribute(k,d,device,
     loss_sem, loss_detail_sem = criterion_sem(output_sem, target)
 
     #sum losses
-    loss = loss_vis + args.beta * loss_sem
+    loss = (1-args.beta)*loss_vis + args.beta * loss_sem
 
 
     if not math.isfinite(loss):
