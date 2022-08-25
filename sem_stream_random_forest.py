@@ -1,19 +1,11 @@
 #!/usr/bin/env python3
 
-import datetime
 import argparse
-import logging
 import time
 import numpy as np
-import torch
 import math
 import os
 import sys
-import torch.nn as nn
-import torchvision
-import torch.optim as optim
-from torch.utils import tensorboard as tb
-import utils
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.utils import Bunch
 import pandas as pd
