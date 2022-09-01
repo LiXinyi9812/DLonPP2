@@ -83,11 +83,10 @@ class PP2HDF5Dataset(torch.utils.data.Dataset):
 
     _LOADERS = ('pil', 'turbojpeg')
 
-    def __init__(self, votes_path, hdf5_path, seg_raw_path, seg_sem_path, loader='pil'):
+    def __init__(self, votes_path, hdf5_path, seg_path, loader='pil'):
         self.votes = pd.read_csv(votes_path, sep = '\t', header=None)
         self.dataset_path = hdf5_path
-        self.seg_raw_path = seg_raw_path
-        self.seg_sem_path = seg_sem_path
+        self.seg_path = seg_path
         if loader.lower() not in self._LOADERS:
             raise ValueError("Loader must be one of {} (received {})".format(self._LOADERS, loader))
         if loader == 'tubojpeg':
@@ -128,11 +127,10 @@ class PP2HDF5Dataset(torch.utils.data.Dataset):
         return img
 
     def get_seg(self, filename):
-        cp_mask = torch.load(os.path.join(self.seg_raw_path,filename+'.pt'),map_location=torch.device('cpu'))
-        cp_sem = torch.load(os.path.join(self.seg_sem_path,filename+'.pt'),map_location=torch.device('cpu'))
-        mask = cp_mask['mask']
-        info = cp_sem['info']
-        area = cp_sem['area']
+        cp = torch.load(os.path.join(self.seg_path,filename+'.pt'),map_location=torch.device('cpu'))
+        mask = cp['mask']
+        info = cp['info']
+        area = cp['area']
         return mask, info, area
 
     def load_image(self, filename):

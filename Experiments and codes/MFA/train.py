@@ -31,8 +31,8 @@ def get_args_parser():
                         help='choose which attributes to feed the model. Write a list of attributes for multi-task learning')
     parser.add_argument('--dataset', default='./pp2/csv/',
                         help='dataset folder (with {train|val|test}.csv of 6 attributes')
-    parser.add_argument('--seg-mask-path', '--mask-folder', default='../inputs/seg_output/mask', help='folder of .pt files containing mask')
-    parser.add_argument('--seg-sem-path', '--sem-folder', default='../inputs/seg_output/info_area', help='folder of .pt files containing the number and area ratio of segmentation class')
+    parser.add_argument('--seg-path', '--mask-folder', default='../inputs/seg_output/mask_area_info',
+                        help='folder of .pt files containing mask')
     parser.add_argument('--hdf5-original-path', '--hdf5-path', default='../inputs/pp2_images.hdf5', help='image hdf5 file path')
     parser.add_argument('-b', '--batch-size', default=48, type=int, help='images per batch')
     parser.add_argument('--test-batch-size', default=48, type=int,
@@ -171,11 +171,11 @@ def get(args):
     print('--------------------------star loading data-----------------------------------')
     for attribute in data_train.data:
         data_train.data[attribute] = PP2HDF5Dataset(votes_path=args.dataset+str(attribute) + '_train.csv',hdf5_path=args.hdf5_original_path,
-                                                    seg_mask_path=args.seg_mask_path, seg_sem_path=args.seg_sem_path)
+                                                    seg_path=args.seg_path)
         data_validation.data[attribute] = PP2HDF5Dataset(votes_path=args.dataset + str(attribute) + '_val.csv',hdf5_path=args.hdf5_original_path,
-                                                         seg_mask_path=args.seg_mask_path, seg_sem_path=args.seg_sem_path)
+                                                         seg_path=args.seg_path)
         data_test.data[attribute] = PP2HDF5Dataset(votes_path=args.dataset + str(attribute) + '_test.csv',hdf5_path=args.hdf5_original_path,
-                                                   seg_mask_path=args.seg_mask_path, seg_sem_path=args.seg_sem_path)
+                                                   seg_path=args.seg_path)
 
 
         train_sampler = torch.utils.data.RandomSampler(data_train.data[attribute])
