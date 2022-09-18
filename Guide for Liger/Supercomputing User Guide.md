@@ -1,5 +1,9 @@
 <link rel="stylesheet" type="text/css" href="auto-number-title.css" />
 
+Some useful website for using LIGER:
+Quick start LIGER: https://ecn-collaborations.pages.in2p3.fr/liger-docs/liger_basics/slurm_quick_start/  
+ECN LIGER reposity: https://gitlab.in2p3.fr/ecn-collaborations/liger-ai-tools  
+
 # Supercomputer User Guide
 ## Basic linux operations
 ### List
@@ -7,7 +11,7 @@
 ll
 ls
 ```
-### display where now
+### display current folder
 ```
 pwd
 ```
@@ -30,7 +34,7 @@ cd [foldername]
 ```
 move to last folder
 ```
-cd..
+cd ..
 ```
 move to home
 ```
@@ -64,7 +68,6 @@ cd $SCRATCHDIR
 ### Run code on liger
 #### Prepare `run.py` and `job.sl`
 On your host computer prepare `run.py` and `job.sl`. Add `#!/usr/bin/env python3` at the beginning of `run.py`. 
-
 Refer to the following `job.sl` template to create a `job.sl`.
 ```
 #!/bin/bash
@@ -97,7 +100,6 @@ singularity exec --nv -B ./: /workspace/shared \
 Note that the volume(It allows the host to share its own file system with the container) `/workspace/shared` in container is bind with the folder where `CelebA.py` is.
 `-B` means bind. In this example, the host directory `./` in liger will be mounted as `/workspace/shared` in the container. Then use `/scratch/arvgxwnfe/DRAMAinPT/pytorch-dramainpt.sif` container, let `python3` be the compiler and run `/workspace/shared/DRAMAinPT_final.py`.
 
-
 #### Transfer `run.py` and `job.sl` to liger
 Go to where these two files are:
 ```
@@ -124,7 +126,7 @@ Run slurm job / submit job
 ```
 sbatch job.sl
 ```
-See sequence
+Check task sequence
 ```
 Mysqueue
 ```
@@ -132,7 +134,7 @@ Check the realtime file(list latest info)
 ```
 tail -f [filename]
 ```
-See result
+Check result
 ```
 sacct -X
 ```
@@ -146,8 +148,9 @@ Operation at liger: Send file from `$SCRATCH` to `$DATA`:
 cp [result file] /data/OG2102040
 ```
 `scp`  for transfer between host and liger. `cp` for transfer inside liger or host.
-### Modify directly on liger
-In some case you want to modify files directly on liger:
+
+### Modify file directly on liger
+In some case you want to modify files directly on liger(do not forget the file is different from the local file after modifying):
 ```
 nano [filename]
 ```
@@ -166,9 +169,10 @@ sinfo -o "%20N  %10c  %10m  %25f  %10G "
 ssh turining04
 watch -n 5 nvidia-smi
 ```
+turining04 is the name of the using real-time.
 Use `ctrl+c` to quit.
 
-## Customize an image
+## Customize a docker image
 In order to run code on liger, we have to make an image of the environment configuration of `run.py` and send it to liger.
 ### Obtain requirements.txt file in conda environment
 First you should configure the environment of `run.py` and make sure it works well. Then
@@ -196,7 +200,6 @@ COPY requirements.txt /workspace/
 
 # install packages defined in fat_package_list.txt
 RUN pip install -r requirements.txt
-
 
 ENTRYPOINT [ "bash" ]
 ```
@@ -255,6 +258,7 @@ mv $SCRATCHDIR/[imagename].sif $DATADIR/<LIPID>
 ```
 
 ### Revise the singularity directly on liger
+You are allowed to install and uninstall package, modify files inside singularity when you are on LIGER
 ```
 module load singularity
 singularity shell --nv --writable-tmpfs [singularity_path]
@@ -262,7 +266,7 @@ python -m pip install [package_name]
 ```
 
 ## Use an existed image
-There are some available image provided by ECN. If one of the images suits your `run.py`, you can use it directly instead of creating dockerfile by yourself.
+There are some available image provided by ECN reposity. If one of the images suits your `run.py`, you can use it directly instead of creating dockerfile by yourself. You can also pull useful images from https://hub.docker.com/.  
 
 Pull an image from ECN:
 ```
@@ -275,7 +279,7 @@ docker run --name [container_name] --gpus all -t [image_name]
 ```
 or run it directly in Docker application.
 
-Enter container
+Enter container.
 ```
 docker exec -it [container_name] /bin/bash
 ```
@@ -283,7 +287,7 @@ In container, you can install dependencies
 ```
 pip install
 ```
-Exit container
+When finish, exit container
 ```
 exit
 ```
@@ -303,6 +307,7 @@ The tar file can be finded in current folder.
 docker image ls
 ```
 ### Bind current folder to container
+Bind any file or folder on the host to the container. Once you bind a file or folder with container, you can read and write it when you are in container.
 ```
 docker run -d \
 -it \
@@ -319,7 +324,7 @@ docker run -it --rm -v "$(pwd)":/workspace/shared gitlab-registry.in2p3.fr/ecn-c
 ```
 docker run -it --rm -v "$(pwd)":/workspace/shared gitlab-registry.in2p3.fr/ecn-collaborations/liger-ai-tools/tensorflow-2.6.1-fat -c shared/run.sh
 ```
-### Navigate to container
+### Navigate inside container
 cd /softs/singularity/containers/ai
 
 
